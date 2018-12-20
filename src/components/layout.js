@@ -3,7 +3,7 @@ import Helmet from 'react-helmet'
 import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 
-import Header from './header'
+import { Header } from './header'
 
 import '../styles/styles.css'
 
@@ -37,7 +37,7 @@ const Layout = ({ children }) => (
             margin: '0 auto',
             maxWidth: 960,
             padding: '0px 1.0875rem 1.45rem',
-            paddingTop: 0,
+            paddingTop: 0
           }}
         >
           {children}
@@ -48,7 +48,7 @@ const Layout = ({ children }) => (
 )
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired,
+  children: PropTypes.node.isRequired
 }
 
 export default Layout
