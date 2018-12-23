@@ -1,52 +1,36 @@
 {
-  "name": "material-30",
-  "description": "Material 3.0.",
+  "name": "template-material-30",
   "version": "0.1.0",
-  "author": "Alex Devero",
-  "license": "Unlicensed",
   "private": true,
-  "keywords": [
-    "material",
-    "template",
-    "web design",
-    "design"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
   "browserslist": [
-    "last 5 versions",
-    "> 5%",
-    "not dead"
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
   ],
+  "eslintConfig": {
+    "extends": "react-app"
+  },
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "start": "npm run develop",
-    "format": "prettier --write \"src/**/*.js\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "dependencies": {
-    "cssnano": "4.1.7",
-    "gatsby": "2.0.72",
-    "gatsby-image": "2.0.25",
-    "gatsby-plugin-manifest": "2.0.12",
-    "gatsby-plugin-offline": "2.0.20",
-    "gatsby-plugin-postcss": "2.0.2",
-    "gatsby-plugin-react-helmet": "3.0.4",
-    "gatsby-plugin-sharp": "2.0.15",
-    "gatsby-source-filesystem": "2.0.12",
-    "gatsby-transformer-sharp": "2.1.9",
-    "postcss-extend": "1.0.5",
-    "postcss-import": "12.0.1",
-    "postcss-nesting": "7.0.0",
-    "postcss-preset-env": "6.5.0",
-    "postcss-pxtorem": "4.0.1",
-    "postcss-responsive-type": "1.0.0",
-    "prop-types": "^15.6.2",
-    "react": "16.6.3",
-    "react-dom": "16.6.3",
-    "react-helmet": "5.2.0"
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-scripts": "2.1.1"
+  },
+  "devDependencies": {
+    "postcss-assets": "^5.0.0",
+    "postcss-extend": "^1.0.5",
+    "postcss-import": "^12.0.1",
+    "postcss-nesting": "^7.0.0",
+    "postcss-preset-env": "^6.5.0",
+    "postcss-pxtorem": "^4.0.1",
+    "postcss-responsive-type": "^1.0.0",
+    "react-app-rewire-postcss": "^3.0.2",
+    "react-app-rewired": "^1.6.2"
   }
 }
