@@ -16,10 +16,6 @@ package/
 ###################################
 _ignore/
 
-# gatsby files
-.cache/
-public
-
 # Log files #
 #############
 *.log
