@@ -6,7 +6,7 @@ node_modules/
 
 # Deployment config #
 #####################
-*-ftp-credentials.json
+*env.*
 
 # Files for shipping #
 ######################
