@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://alexdevero.com"><img alt="Built by DEVERO" src="https://badgen.net/badge/Built%20by/DEVERO/d30320"></a>
   <a href="https://github.com/alexdevero/template-freebie-material-3/releases"><img alt="Current release" src="https://badgen.net/github/release/alexdevero/template-freebie-material-3"></a>
-  <a href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fbit.ly%2FGetCodeX&amp;text=CodeX%20by%20@appsupernova%20has%20killed%20code%20snippets.%20Empower%20your%20workflow%20like%20never%20before%20by%20generating%20production-ready%20code%2C%20real-time.%20&amp;hashtags=nomoresnippets%2Cappsupernova%2Ccodex"><img alt="Current release" src="https://badgen.net/badge/twitter?icon=twitter"></a>
+  <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Falexdevero%2Ftemplate-freebie-material-3&amp;text=Check%20out%20this%20awesome%20Material%20UI%20kit%20%2F%20theme%20%2F%20template%20Freebie%20on%20Github!&amp;hashtags=webdesign%2Cfreebie%2Cdesign"><img alt="Current release" src="https://badgen.net/badge//twitter?icon=twitter"></a>
 </p>
 
 Material 3.0 is a free Material Bootstrap UI kit / theme / template with a fresh, new design inspired by Google's Material Design. We are very excited to introduce our take on the material concepts through an easy to use and beautiful set of components. Material 3.0 was built on top of the popular Bootstrap framework and it comes with a couple of third-party plugins redesigned to fit in with the rest of the elements.
