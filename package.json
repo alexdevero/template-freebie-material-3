@@ -12,17 +12,16 @@
     "extends": "react-app"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
   },
   "dependencies": {
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-helmet": "^5.2.0",
-    "react-router-dom": "^4.3.1",
-    "react-scripts": "2.1.1"
+    "react-router-dom": "^4.3.1"
   },
   "devDependencies": {
     "postcss-assets": "^5.0.0",
@@ -33,6 +32,7 @@
     "postcss-pxtorem": "^4.0.1",
     "postcss-responsive-type": "^1.0.0",
     "react-app-rewire-postcss": "^3.0.2",
-    "react-app-rewired": "^1.6.2"
+    "react-app-rewired": "^1.6.2",
+    "react-scripts": "^2.1.2"
   }
 }
