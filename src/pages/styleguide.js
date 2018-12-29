@@ -15,7 +15,7 @@ class StyleguidePage extends React.PureComponent {
 
   render () {
     return(
-      <Layout>
+      <Layout pageTitle="Styleguide">
         <section className="hero">
           <h1>Material 3.0 </h1>
 
