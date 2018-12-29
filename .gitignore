@@ -12,6 +12,10 @@ node_modules/
 ######################
 package/
 
+# Files for premium version #
+#############################
+src/**/_premium/
+
 # Folders for inspiration & notes #
 ###################################
 _ignore/
