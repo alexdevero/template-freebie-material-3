@@ -24,6 +24,11 @@ import StyleguidePage from './pages/styleguide'
 import './styles/styles.css'
 
 class App extends React.Component {
+  state = {
+    activeColor: 'blue',
+    isPresentationPanelVisible: false,
+  }
+
   render () {
     return(
       <BrowserRouter>
