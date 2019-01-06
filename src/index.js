@@ -16,7 +16,7 @@ import IndexPage from './pages/index'
 import StyleguidePage from './pages/styleguide'
 
 // Import Presentation Panel for
-// import PresentationPanel from './components/presentation-panel'
+import { PresentationPanel } from './components/presentation-panel'
 
 // Import components
 
@@ -25,15 +25,27 @@ import './styles/styles.css'
 
 class App extends React.Component {
   state = {
-    activeColor: 'blue',
+    activeThemeColor: 'blue',
     isPresentationPanelVisible: false,
+  }
+
+  handleThemeColorChange = (event) => {
+    this.setState({
+      activeThemeColor: `${event.target.title}`
+    })
+  }
+
+  handlePresentationPanelToggle = () => {
+    this.setState({
+      isPresentationPanelVisible: !this.state.isPresentationPanelVisible
+    })
   }
 
   render () {
     return(
       <BrowserRouter>
         <React.Fragment>
-          {/* <PresentationPanel /> */}
+          <PresentationPanel state={this.state} colorClickHandler={this.handleThemeColorChange} panelToggleHandler={this.handlePresentationPanelToggle} />
 
           <Route path="/" component={IndexPage} exact={true} />
 
