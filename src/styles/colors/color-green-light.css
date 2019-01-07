@@ -1,0 +1,4 @@
+/* Green light theme */
+.navbar {
+  background-color: var(--mat-col-green-light);
+}

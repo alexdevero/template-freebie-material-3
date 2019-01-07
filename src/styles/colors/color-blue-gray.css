@@ -1,0 +1,4 @@
+/* Blue gray theme */
+.navbar {
+  background-color: var(--mat-col-blue-gray);
+}

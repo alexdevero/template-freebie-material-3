@@ -1,0 +1,4 @@
+/* Yellow theme */
+.navbar {
+  background-color: var(--mat-col-yellow);
+}

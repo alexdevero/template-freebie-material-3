@@ -1,0 +1,4 @@
+/* Teal theme */
+.navbar {
+  background-color: var(--mat-col-teal);
+}
