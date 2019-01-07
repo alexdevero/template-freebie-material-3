@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { BrowserRouter, Route } from 'react-router-dom'
+import { Helmet } from 'react-helmet'
 
 import * as serviceWorker from './serviceWorker'
 
@@ -45,6 +46,10 @@ class App extends React.Component {
     return(
       <BrowserRouter>
         <React.Fragment>
+          <Helmet>
+            <html className={`color-${this.state.activeThemeColor}`} />
+          </Helmet>
+
           <PresentationPanel state={this.state} colorClickHandler={this.handleThemeColorChange} panelToggleHandler={this.handlePresentationPanelToggle} />
 
           <Route path="/" component={IndexPage} exact={true} />
