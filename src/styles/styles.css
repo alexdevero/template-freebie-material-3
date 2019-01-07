@@ -7,3 +7,21 @@
 
 /* Components */
 @import 'components/presentation-panel.postcss';
+
+/* Colors */
+@import 'colors/color-amber.postcss';
+@import 'colors/color-blue.postcss';
+@import 'colors/color-blue-gray.postcss';
+@import 'colors/color-blue-light.postcss';
+@import 'colors/color-cyan.postcss';
+@import 'colors/color-gray.postcss';
+@import 'colors/color-green.postcss';
+@import 'colors/color-green-light.postcss';
+@import 'colors/color-indigo.postcss';
+@import 'colors/color-orange.postcss';
+@import 'colors/color-orange-deep.postcss';
+@import 'colors/color-pink.postcss';
+@import 'colors/color-purple.postcss';
+@import 'colors/color-red.postcss';
+@import 'colors/color-teal.postcss';
+@import 'colors/color-yellow.postcss';
