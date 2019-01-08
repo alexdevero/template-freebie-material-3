@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export class Header extends React.PureComponent {
   render() {
@@ -17,17 +18,21 @@ export class Header extends React.PureComponent {
             <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
               <ul className="navbar-nav">
                 <li className="nav-item dropdown">
-                  <button className="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <button className="nav-link dropdown-toggle btn btn-link" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Components
                   </button>
+
                   <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a className="dropdown-item" href="#!">
                       Action
                     </a>
+
                     <a className="dropdown-item" href="#!">
                       Another action
                     </a>
+
                     <div className="dropdown-divider" />
+
                     <a className="dropdown-item" href="#!">
                       Something else here
                     </a>
@@ -35,17 +40,21 @@ export class Header extends React.PureComponent {
                 </li>
 
                 <li className="nav-item dropdown">
-                  <button className="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <button className="nav-link dropdown-toggle btn btn-link" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Sections
                   </button>
+
                   <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a className="dropdown-item" href="#!">
                       Action
                     </a>
+
                     <a className="dropdown-item" href="#!">
                       Another action
                     </a>
+
                     <div className="dropdown-divider" />
+
                     <a className="dropdown-item" href="#!">
                       Something else here
                     </a>
@@ -53,20 +62,26 @@ export class Header extends React.PureComponent {
                 </li>
 
                 <li className="nav-item dropdown">
-                  <button className="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <button className="nav-link dropdown-toggle btn btn-link" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Pages
                   </button>
+
                   <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a className="dropdown-item" href="#!">
-                      Action
-                    </a>
-                    <a className="dropdown-item" href="#!">
-                      Another action
-                    </a>
-                    <div className="dropdown-divider" />
-                    <a className="dropdown-item" href="#!">
-                      Something else here
-                    </a>
+                    <Link to="/404" className="dropdown-item">404</Link>
+
+                    <Link to="/about" className="dropdown-item">About</Link>
+
+                    <Link to="/blog" className="dropdown-item">Blog</Link>
+
+                    <Link to="/blog-post" className="dropdown-item">Blog post</Link>
+
+                    <Link to="/contact" className="dropdown-item">Contact</Link>
+
+                    <Link to="/portfolio" className="dropdown-item">Portfolio</Link>
+
+                    <Link to="/services" className="dropdown-item">Services</Link>
+
+                    <Link to="/styleguide" className="dropdown-item">Styleguide</Link>
                   </div>
                 </li>
 
