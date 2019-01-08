@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import Layout from '../components/layout'
 
 const Portfolio = () => (
-  <Layout>
+  <Layout pageTitle="Portfolio">
     <h1>Hi from the Portfolio</h1>
 
     <p>Welcome to page 2</p>
