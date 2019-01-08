@@ -37,31 +37,38 @@ export const PresentationPanel = ({ colorClickHandler, panelToggleHandler, state
         <span onClick={(event) => colorClickHandler(event)} title="light" className="switch switch--theme light" />
       </div>{/* end panel area */}
 
-      {/* Header Templates */}
+      {/* Header Templates *-/}
       <div className="area">
         <h5 className="panel__heading">Home Templates</h5>
 
-        <select defaultValue="">
-          <option>
-            <Link to="/">Parallax Background</Link>
-          </option>
+        <Link to="/home-parallax">Parallax background</Link>
 
-          <option>
-            <Link to="/">Full Screen Slider</Link>
-          </option>
+        <Link to="/home-slider">Full screen slider</Link>
 
-          <option>
-            <Link to="/">Slow Zoom Background</Link>
-          </option>
+        <Link to="/home-video">Full-screen video</Link>
 
-          <option>
-            <Link to="/">Full Screen Video</Link>
-          </option>
+        <Link to="/home-pattern">Pattern background</Link>
+      </div>{/* end panel area */}
 
-          <option>
-            <Link to="/">Pattern Background</Link>
-          </option>
-        </select>
+      {/* Pages *-/}
+      <div className="area">
+        <h5 className="panel__heading">Pages</h5>
+
+        <Link to="/404">404</Link>
+
+        <Link to="/about">About</Link>
+
+        <Link to="/blog">Blog</Link>
+
+        <Link to="/blog-post">Blog post</Link>
+
+        <Link to="/contact">Contact</Link>
+
+        <Link to="/portfolio">Portfolio</Link>
+
+        <Link to="/services">Services</Link>
+
+        <Link to="/styleguide">Styleguide</Link>
       </div>{/* end panel area */}
     </section>
   )
