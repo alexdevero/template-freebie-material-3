@@ -16,6 +16,7 @@
   /* --mat-col-orange-1: #ff9800; 500 */
   /* --mat-col-deep-orange-1: #ff5722; 500 */
 
+  /* Color options */
   --mat-col-amber: #ffc107;
   --mat-col-blue: #2196f3;
   --mat-col-blue-gray: #607d8b;
@@ -33,11 +34,17 @@
   --mat-col-teal: #009688;
   --mat-col-yellow: #ffeb3b;
 
+  /* Theme colors */
+  --mat-col-dark: #34495e;
+  --mat-col-light: #bdc3c7;
+
+  /* Transition */
   --tran-duration: .25s;
   --tran-timing: cubic-bezier(.77, 0, .175, 1);
   --tran-part: var(--tran-duration) var(--tran-timing);
   --tran-full: all var(--tran-part);
 
+  /* Typography */
   --type-h1: 96px;
   --type-h2: 60px;
   --type-h3: 48px;
