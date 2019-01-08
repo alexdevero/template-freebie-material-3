@@ -25,3 +25,7 @@
 @import 'colors/color-red.postcss';
 @import 'colors/color-teal.postcss';
 @import 'colors/color-yellow.postcss';
+
+/* Themes */
+@import 'themes/theme-dark.postcss';
+@import 'themes/theme-light.postcss';
