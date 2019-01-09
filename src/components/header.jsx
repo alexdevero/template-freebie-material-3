@@ -5,7 +5,7 @@ export class Header extends React.PureComponent {
   render() {
     return (
       <header>
-        <nav className="navbar navbar-expand-md">
+        <nav className="navbar navbar-light navbar-expand-md fixed-top">
           <div className="container">
             <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon" />
@@ -15,7 +15,7 @@ export class Header extends React.PureComponent {
               <img src="" alt="" /> Material
             </a>
 
-            <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <div className="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
               <ul className="navbar-nav">
                 <li className="nav-item dropdown">
                   <button className="nav-link dropdown-toggle btn btn-link" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
