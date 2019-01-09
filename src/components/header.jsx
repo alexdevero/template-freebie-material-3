@@ -7,13 +7,13 @@ export class Header extends React.PureComponent {
       <header>
         <nav className="navbar navbar-light navbar-expand-md">
           <div className="container">
-            <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-              <span className="navbar-toggler-icon" />
-            </button>
-
             <a className="navbar-brand" href="#!">
               <img src="" alt="" /> Material
             </a>
+
+            <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span className="navbar-toggler-icon" />
+            </button>
 
             <div className="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
               <ul className="navbar-nav">
@@ -67,6 +67,8 @@ export class Header extends React.PureComponent {
                   </button>
 
                   <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <Link to="/" className="dropdown-item">Home</Link>
+
                     <Link to="/404" className="dropdown-item">404</Link>
 
                     <Link to="/about" className="dropdown-item">About</Link>
