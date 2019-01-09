@@ -39,8 +39,8 @@
   --mat-col-light: #bdc3c7;
 
   /* Transition */
-  --tran-duration: .25s;
-  --tran-timing: cubic-bezier(.77, 0, .175, 1);
+  --tran-duration: .15s;
+  --tran-timing: ease-in-out;
   --tran-part: var(--tran-duration) var(--tran-timing);
   --tran-full: all var(--tran-part);
 
