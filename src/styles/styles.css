@@ -6,6 +6,7 @@
 @import 'base/_typography.css';
 
 /* Components */
+@import 'components/_navbar.postcss';
 @import 'components/presentation-panel.postcss';
 
 /* Colors */
