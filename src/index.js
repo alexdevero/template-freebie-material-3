@@ -31,9 +31,15 @@ class App extends React.Component {
   }
 
   handleThemeColorChange = (event) => {
-    this.setState({
-      activeThemeColor: `${event.target.title}`
-    })
+    if (event.target.title !== 'light') {
+      this.setState({
+        activeThemeColor: `${event.target.title}`
+      })
+    } else {
+      this.setState({
+        activeThemeColor: `blue`
+      })
+    }
   }
 
   handlePresentationPanelToggle = () => {
