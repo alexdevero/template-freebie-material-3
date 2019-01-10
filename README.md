@@ -80,9 +80,13 @@ template-freebie-material-3/
 
 ## Browser Support
 
-At present, we officially aim to support the last two versions of the following browsers:
+At this moment, we officially aim to support the last two versions of the following browsers:
 
-<img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/chrome.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/firefox.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/edge.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/safari.png" width="64" height="64"> <img src="https://s3.amazonaws.com/creativetim_bucket/github/browser/opera.png" width="64" height="64">
+<img src="https://raw.githubusercontent.com/alexdevero/template-freebie-material-3/master/_docs/chrome.png" width="64" height="64">
+<img src="https://raw.githubusercontent.com/alexdevero/template-freebie-material-3/master/_docs/firefox.png" width="64" height="64">
+<img src="https://raw.githubusercontent.com/alexdevero/template-freebie-material-3/master/_docs/edge.png" width="64" height="64">
+<img src="https://raw.githubusercontent.com/alexdevero/template-freebie-material-3/master/_docs/safari.png" width="64" height="64">
+<img src="https://raw.githubusercontent.com/alexdevero/template-freebie-material-3/master/_docs/opera.png" width="64" height="64">
 
 ## Resources
 <!-- - Demo: <https://demos.alexdevero.com/alexdeveroindex.html> -->
