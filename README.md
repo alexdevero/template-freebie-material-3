@@ -82,11 +82,7 @@ template-freebie-material-3/
 
 At this moment, we officially aim to support the last two versions of the following browsers:
 
-<img src="https://raw.githubusercontent.com/alexdevero/template-freebie-material-3/master/_docs/chrome.png" width="64" height="64">
-<img src="https://raw.githubusercontent.com/alexdevero/template-freebie-material-3/master/_docs/firefox.png" width="64" height="64">
-<img src="https://raw.githubusercontent.com/alexdevero/template-freebie-material-3/master/_docs/edge.png" width="64" height="64">
-<img src="https://raw.githubusercontent.com/alexdevero/template-freebie-material-3/master/_docs/safari.png" width="64" height="64">
-<img src="https://raw.githubusercontent.com/alexdevero/template-freebie-material-3/master/_docs/opera.png" width="64" height="64">
+<img src="https://raw.githubusercontent.com/alexdevero/template-freebie-material-3/master/_docs/logo-chrome.png" width="64" height="64"> <img src="https://raw.githubusercontent.com/alexdevero/template-freebie-material-3/master/_docs/logo-firefox.png" width="64" height="64"> <img src="https://raw.githubusercontent.com/alexdevero/template-freebie-material-3/master/_docs/logo-edge.png" width="64" height="64"> <img src="https://raw.githubusercontent.com/alexdevero/template-freebie-material-3/master/_docs/logo-safari.png" width="64" height="64"> <img src="https://raw.githubusercontent.com/alexdevero/template-freebie-material-3/master/_docs/logo-opera.png" width="64" height="64">
 
 ## Resources
 <!-- - Demo: <https://demos.alexdevero.com/alexdeveroindex.html> -->
