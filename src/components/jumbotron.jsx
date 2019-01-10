@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 export class Jumbotron extends React.PureComponent {
   render() {
-    return <section className={`jumbotron jumbotron-${this.props.type} ${this.props.isFluid ? 'jumbotron-fluid' : ''}`}>
+    return <section className={`jumbotron jumbotron-${this.props.type} ${this.props.isFluid ? 'jumbotron-fluid' : ''} ${this.props.className.length > 0 ? this.props.className : ''}`}>
       <div className="container">{this.props.children}</div>
     </section>
   }
@@ -11,6 +11,7 @@ export class Jumbotron extends React.PureComponent {
 
 Jumbotron.propTypes = {
   children: PropTypes.node.isRequired,
-  type: PropTypes.oneOf(['default', 'small', 'medium', 'large', 'xlarge', 'full-height']),
-  isFluid: PropTypes.bool
+  className: PropTypes.string,
+  isFluid: PropTypes.bool,
+  type: PropTypes.oneOf(['default', 'small', 'medium', 'large', 'xlarge', 'full-height'])
 }
