@@ -11,7 +11,7 @@ const Layout = ({ children, pageTitle }) => (
       <title>{pageTitle} | Material Template 3.0</title>
     </Helmet>
 
-    <div className="wrapper">
+    <div className={`wrapper page page-${pageTitle.toLowerCase()}`}>
       <Header />
 
       {children}
@@ -23,7 +23,7 @@ const Layout = ({ children, pageTitle }) => (
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-  pageTitle: PropTypes.string
+  pageTitle: PropTypes.string.isRequired
 }
 
 export default Layout
