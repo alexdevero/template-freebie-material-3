@@ -34,7 +34,7 @@ Material 3.0 makes use of light, surface and movement. The general layout resemb
 
 | HTML | React | Gatsbyjs|
 | --- | --- | --- |
-| [![Material 3.0  HTML](https://cdn.rawgit.com/alexdevero/template-freebie-material-3/master/docs/logo-html.svg)](https://www.x.com/material-dashboard)  | [![Material 3.0  React](https://cdn.rawgit.com/alexdevero/template-freebie-material-3/master/docs/logo-react.svg)](https://www.x.com/material-dashboard-react)  | [![Gatsbyjs Material 3.0](https://cdn.rawgit.com/alexdevero/template-freebie-material-3/master/docs/logo-gatsbyjs.svg)](https://www.x.com/gatsbyjs-material-dashboard)  |
+| <img src="https://raw.githubusercontent.com/alexdevero/template-freebie-material-3/master/_docs/logo-html.png" width="64" height="64" /> | <img src="https://raw.githubusercontent.com/alexdevero/template-freebie-material-3/master/_docs/logo-react.png" width="64" height="64" />  | <img src="https://raw.githubusercontent.com/alexdevero/template-freebie-material-3/master/_docs/logo-gatsbyjs.png" width="64" height="64" /> |
 
 ## Demo
 
