@@ -7,9 +7,9 @@ export class Header extends React.PureComponent {
       <header>
         <nav className="navbar navbar-light navbar-expand-md">
           <div className="container">
-            <a className="navbar-brand" href="#!">
+            <Link to="/" className="navbar-brand">
               <img src="" alt="" /> Material
-            </a>
+            </Link>
 
             <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon" />
