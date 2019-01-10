@@ -1,15 +1,15 @@
 import React from 'react'
 
-import { Hero } from '../components/hero'
+import { Jumbotron } from '../components/jumbotron'
 import Layout from '../components/layout'
 
 const IndexPage = () => (
   <Layout pageTitle="Home">
-    <Hero type="large">
+    <Jumbotron type="default" isFluid={false}>
       <h1 className="h4">Welcome to Material</h1>
 
       <p>Start the development with this awesome Bootstrap 4 UI Kit inspired by Material Design.</p>
-    </Hero>
+    </Jumbotron>
 
     <section className="features">
       <div className="container">

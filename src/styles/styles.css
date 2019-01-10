@@ -6,8 +6,8 @@
 @import 'base/_typography.css';
 
 /* Components */
+@import 'components/_jumbotron.postcss';
 @import 'components/_navbar.postcss';
-@import 'components/presentation-panel.postcss';
 
 /* Colors */
 @import 'colors/color-amber.postcss';
@@ -30,3 +30,6 @@
 /* Themes */
 @import 'themes/theme-dark.postcss';
 @import 'themes/theme-light.postcss';
+
+/* Dev and presentation-only */
+@import 'components/presentation-panel.postcss';
