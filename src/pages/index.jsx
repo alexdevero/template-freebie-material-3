@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 
 const IndexPage = () => (
   <Layout pageTitle="Home">
-    <Jumbotron className="d-flex justify-content-center align-items-center text-center" type="medium" isFluid={false}>
+    <Jumbotron className="d-flex justify-content-center align-items-center text-center" type="medium" isFluid={true}>
       <h1 className="h4">Welcome to Material</h1>
 
       <p>Start the development with this awesome Bootstrap 4 UI Kit inspired by Material Design.</p>

@@ -9,6 +9,9 @@
 @import 'components/_jumbotron.postcss';
 @import 'components/_navbar.postcss';
 
+/* Pages */
+@import 'pages/_page-home.postcss';
+
 /* Colors */
 @import 'colors/color-amber.postcss';
 @import 'colors/color-blue.postcss';
