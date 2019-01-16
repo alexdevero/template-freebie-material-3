@@ -8,6 +8,7 @@ body {
   font-size: 1rem;
 }
 
+/* Use CSS styles defined by Bootstrap
 h1,
 h2,
 h3,
@@ -15,7 +16,7 @@ h4,
 h5,
 h6,
 p,
-small,
+small, */
 .text--body {
   font-size: var(--type-body);
 }
@@ -39,6 +40,7 @@ strong {
   font-weight: 700;
 }
 
+/* Use CSS styles defined by Bootstrap
 .h1 {
   font-size: var(--type-h1);
 }
@@ -65,7 +67,7 @@ strong {
 
 .text--small {
   font-size: var(--type-small);
-}
+} */
 
 .text--caption {
   font-size: var(--type-caption);
