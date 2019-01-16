@@ -12,6 +12,11 @@
     "extends": "react-app"
   },
   "scripts": {
+    "copy:bootstrap:css": "cp ./node_modules/bootstrap/dist/css/bootstrap.min.css ./public/styles",
+    "copy:bootstrap:js": "cp ./node_modules/bootstrap/dist/js/bootstrap.min.js ./public/scripts",
+    "copy:jquery": "cp ./node_modules/jquery/dist/jquery.slim.min.js ./public/scripts",
+    "copy:popper": "cp ./node_modules/popper.js/dist/popper.min.js ./public/scripts",
+    "copy": "npm run copy:bootstrap:css && npm run copy:bootstrap:js && npm run copy:jquery && npm run copy:popper",
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
