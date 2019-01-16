@@ -18,6 +18,9 @@
     "eject": "react-app-rewired eject"
   },
   "dependencies": {
+    "bootstrap": "^4.2.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.6",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-helmet": "^5.2.0",
