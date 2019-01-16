@@ -8,6 +8,11 @@ node_modules/
 #####################
 *env.*
 
+# Files added as dependencies #
+#############################
+public/scripts/
+public/styles/
+
 # Files for shipping #
 ######################
 package/
