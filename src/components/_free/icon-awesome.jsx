@@ -57,6 +57,6 @@ export class IconAwesome extends React.PureComponent {
 IconAwesome.propTypes = {
   className: PropTypes.string,
   name: PropTypes.string.isRequired,
-  size: PropTypes.oneOf(['']),
+  size: PropTypes.oneOf(['xs', 'sm', 'lg', '2x', '3x', '4x', '5x', '6x', '7x', '8x', '9x', '10x']),
   type: PropTypes.oneOf(['brand', 'light', 'regular', 'solid']).isRequired
 }
