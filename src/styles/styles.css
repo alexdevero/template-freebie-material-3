@@ -6,6 +6,7 @@
 @import 'base/_typography.css';
 
 /* Components */
+@import 'components/_icon-material.postcss';
 @import 'components/_jumbotron.postcss';
 @import 'components/_navbar.postcss';
 
