@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-export class Icon extends React.PureComponent {
+export class IconAwesome extends React.PureComponent {
   generateSize = () => {
     let iconSize = ''
 
@@ -54,7 +54,7 @@ export class Icon extends React.PureComponent {
   }
 }
 
-Icon.propTypes = {
+IconAwesome.propTypes = {
   className: PropTypes.string,
   name: PropTypes.string.isRequired,
   size: PropTypes.oneOf(['']),
