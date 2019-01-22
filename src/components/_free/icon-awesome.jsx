@@ -1,3 +1,5 @@
+// Icons: https://fontawesome.com/icons
+
 import React from 'react'
 import PropTypes from 'prop-types'
 
