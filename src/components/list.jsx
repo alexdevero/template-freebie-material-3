@@ -35,5 +35,5 @@ export class List extends React.PureComponent {
 
 List.propTypes = {
   children: PropTypes.node.isRequired,
-  type: PropTypes.oneOf(['inline', 'unstyled']).isRequired
+  type: PropTypes.oneOf(['inline', 'unstyled'])
 }
