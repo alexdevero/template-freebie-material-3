@@ -1,8 +1,9 @@
 import React from 'react'
 
-import { Section } from '../components/section'
+import { IconAwesome } from '../components/_free/icon-awesome'
 import { Jumbotron } from '../components/jumbotron'
-import Layout from '../components/layout'
+import { Layout } from '../components/layout'
+import { Section } from '../components/section'
 
 const IndexPage = () => (
   <Layout pageTitle="Home">
@@ -552,17 +553,19 @@ const IndexPage = () => (
         <ul>
           <li>
             <a href="#!" className="btn">
-              <span className="fa fa-twitter" />
+              <IconAwesome name="twitter" type="brand" />
             </a>
           </li>
+
           <li>
             <a href="#!" className="btn">
-              <span className="fa fa-facebook" />
+              <IconAwesome name="facebook" type="brand" />
             </a>
           </li>
+
           <li>
             <a href="#!" className="btn">
-              <span className="fa fa-pinterest" />
+              <IconAwesome name="pinterest" type="brand" />
             </a>
           </li>
         </ul>
