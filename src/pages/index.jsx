@@ -3,6 +3,7 @@ import React from 'react'
 import { IconAwesome } from '../components/_free/icon-awesome'
 import { Jumbotron } from '../components/jumbotron'
 import { Layout } from '../components/layout'
+import { List } from '../components/list'
 import { Section } from '../components/section'
 
 const IndexPage = () => (
@@ -384,7 +385,7 @@ const IndexPage = () => (
           <div className="col-md-6">
             <h2 className="h2">Free Demo</h2>
 
-            <ul>
+            <List type="unstyled">
               <li>20 Components</li>
               <li>3 Example Pages</li>
               <li>
@@ -396,13 +397,13 @@ const IndexPage = () => (
               <li>
                 <span className="fa fa-times" /> Premium Support
               </li>
-            </ul>
+            </List>
           </div>
 
           <div className="col-md-6">
             <h2 className="h2">PRO Version</h2>
 
-            <ul>
+            <List type="unstyled">
               <li>60+ Components</li>
               <li>10 Example Pages</li>
               <li>
@@ -414,7 +415,7 @@ const IndexPage = () => (
               <li>
                 <span className="fa fa-check" /> Premium Support
               </li>
-            </ul>
+            </List>
           </div>
         </div>
       </div>
@@ -518,12 +519,12 @@ const IndexPage = () => (
 
             <h3 className="h4">{/*this.state.isPersonal ? '$79' : '$229'*/}</h3>
 
-            <ul>
+            <List type="unstyled">
               <li>HTML/CSS/JS Files</li>
               <li>Fully Coded Components</li>
               <li>Responsive Design</li>
               <li>Product Documentation</li>
-            </ul>
+            </List>
           </div>
         </div>
 
@@ -533,14 +534,14 @@ const IndexPage = () => (
 
             <h3 className="h4">{/*this.state.isPersonal ? '$139' : '¨$599'*/}</h3>
 
-            <ul>
+            <List type="unstyled">
               <li>HTML/CSS/JS/React Files</li>
               <li>Fully Coded Components</li>
               <li>Responsive Design</li>
               <li>Product Documentation</li>
               <li>+ React version</li>
               <li>+ Gatsbyjs version</li>
-            </ul>
+            </List>
           </div>
         </div>
       </div>
@@ -550,7 +551,7 @@ const IndexPage = () => (
 
     <div className="share">
       <div className="container">
-        <ul>
+        <List type="inline">
           <li>
             <a href="#!" className="btn">
               <IconAwesome name="twitter" type="brand" />
@@ -568,7 +569,7 @@ const IndexPage = () => (
               <IconAwesome name="pinterest" type="brand" />
             </a>
           </li>
-        </ul>
+        </List>
       </div>
     </div>
   </Layout>
