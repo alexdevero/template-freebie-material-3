@@ -27,7 +27,7 @@ export class List extends React.PureComponent {
   }
 
   render() {
-    return <ul className={[this.generateClasses(), this.getType()].join('')}>
+    return <ul className={this.generateClasses() !== null || this.getType() !== null ? [this.generateClasses(), this.getType()].join('') : null}>
       {this.props.children}
     </ul>
   }
