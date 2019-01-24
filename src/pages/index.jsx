@@ -9,13 +9,13 @@ import { Section } from '../components/section'
 const IndexPage = () => (
   <Layout pageTitle="Home">
     <Jumbotron className="d-flex justify-content-center align-items-center text-center" type="large" isFluid={true}>
-      <h1 className="h4">Welcome to Material</h1>
+      <h1 className="display-4">Welcome to Material</h1>
 
-      <p>Start the development with this awesome Bootstrap 4 UI Kit inspired by Material Design.</p>
+      <p className="lead mb-0">Start the development with this awesome Bootstrap 4 UI Kit inspired by Material Design.</p>
     </Jumbotron>
 
-    <Section className="features" container="default">
-      <p>Material UI Kit is a Bootstrap UI Kit with a fresh, new design inspired by Google's Material Design. You asked for it, so we built it. It's a great pleasure to introduce to you the material concepts in an easy to use and beautiful set of components.</p>
+    <Section className="features pt-5 pb-8" container="default">
+      <p className="text-center">Material UI Kit is a Bootstrap UI Kit with a fresh, new design inspired by Google's Material Design. You asked for it, so we built it. It's a great pleasure to introduce to you the material concepts in an easy to use and beautiful set of components.</p>
 
       <div className="row">
         <div className="col-md-4">
@@ -44,12 +44,12 @@ const IndexPage = () => (
       </div>
     </Section>
 
-    <Section container="default">
+    <Section container="default" className="pb-8">
       <div className="row">
         <div className="col-md-6">
           <h2 className="h2">Basic Components</h2>
 
-          <h3 className="h3">The core elements of your website</h3>
+          <h3 className="h4 mt-3 mb-3">The core elements of your website</h3>
 
           <p>We re-styled every Bootstrap element to make it resemble Material Design and also fit with each other. All the Bootstrap components that you need in a development have been re-design with the new look. Besides the numerous basic elements, we have also created additional classes. All these items will help you take your project to the next level.</p>
         </div>
@@ -60,7 +60,7 @@ const IndexPage = () => (
       </div>
     </Section>
 
-    <Section container="default">
+    <Section container="default" className="pb-8">
       <div className="row">
         <div className="col-md-6">
           <img src="" alt="" />
@@ -69,19 +69,19 @@ const IndexPage = () => (
         <div className="col-md-6">
           <h2 className="h2">Unconventional Cards</h2>
 
-          <h3 className="h3">One card for every problem</h3>
+          <h3 className="h4 mt-3 mb-3">One card for every problem</h3>
 
           <p>We love cards and everybody on the web seems to. We have gone above and beyond with options for you to organise your information. From cards designed for blog posts, to product cards or user profiles, you will have many options to choose from. All the cards follow the material principles and have a design that stands out.</p>
         </div>
       </div>
     </Section>
 
-    <Section container="default">
+    <Section container="default" className="pb-8">
       <div className="row">
         <div className="col-md-6">
           <h2 className="h2">Content Areas</h2>
 
-          <h3 className="h3">For areas that need more space</h3>
+          <h3 className="h4 mt-3 mb-3">For areas that need more space</h3>
 
           <p>If you need elements such as tables, comments, description areas, tabs and many others, we've got you covered. We took into consideration multiple use cases and came up with some specific elements that you will love to use. They're beautiful and easy to use for the end user navigating your website.</p>
         </div>
@@ -92,17 +92,21 @@ const IndexPage = () => (
       </div>
     </Section>
 
-    <Section container="default">
-      <h1>Ready to Use Sections</h1>
+    <Section container="default" className="pb-8 text-center">
+      <div className="row justify-content-center">
+        <div className="col-md-10 col-lg-8">
+          <h1 className="mb-4">Ready to Use Sections</h1>
 
-      <p>Build your page section by section! We have created multiple options for you to put together and customise into pixel perfect pages. From headers to footers, you will be able to choose the best combination for your project.</p>
+          <p>Build your page section by section! We have created multiple options for you to put together and customise into pixel perfect pages. From headers to footers, you will be able to choose the best combination for your project.</p>
 
-      <a href="#!" className="btn">
-        View all sections
-      </a>
+          <a href="#!" className="btn">
+            View all sections
+          </a>
+        </div>
+      </div>
     </Section>
 
-    <div className="gallery gallery--fluid">
+    <div className="gallery gallery--fluid pb-8">
       <div className="container-fluid">
         <div className="col-md-3">
           <a href="#!">
@@ -298,7 +302,7 @@ const IndexPage = () => (
       </div>
     </div>
 
-    <Section className="gallery gallery--masonry" container="default">
+    <Section className="gallery gallery--masonry pb-8" container="default">
       {/*
         * React plugins:
         * https://www.npmjs.com/package/react-masonry-layout
@@ -369,7 +373,7 @@ const IndexPage = () => (
       </div>
     </Section>
 
-    <Section className="demo" container="default">
+    <Section className="demo pb-8" container="default">
       <div className="row">
         <div className="col-md-6">
           <h1 className="h2">Free Demo</h1>
@@ -421,7 +425,7 @@ const IndexPage = () => (
       </div>
     </Section>
 
-    <Section className="benefits" container="default">
+    <Section className="benefits pb-8" container="default">
       <h1 className="h2">Your work will get much easier</h1>
 
       <div className="row">
@@ -459,7 +463,7 @@ const IndexPage = () => (
       </div>
     </Section>
 
-    <Section className="testimonials" container="default">
+    <Section className="testimonials pb-8" container="default">
       <h1 className="h2">Trusted by 1.000+ People</h1>
 
       <p>This UI Kit, has been used and tested by 1,000+ web developers and webdesigners in over 10.000 Web Projects. This is what some of them say:</p>
@@ -491,7 +495,7 @@ const IndexPage = () => (
       </div>
     </Section>
 
-    <Section className="cta" container="default">
+    <Section className="cta pb-8" container="default">
       <h1 className="h2">Ready to get your Material UI Kit Pro?</h1>
 
       <div className="switch">
@@ -551,20 +555,20 @@ const IndexPage = () => (
 
     <div className="share">
       <div className="container">
-        <List type="inline">
-          <li>
+        <List type="inline" className="text-center">
+          <li className="list-inline-item">
             <a href="#!" className="btn">
               <IconAwesome name="twitter" type="brand" />
             </a>
           </li>
 
-          <li>
+          <li className="list-inline-item">
             <a href="#!" className="btn">
               <IconAwesome name="facebook" type="brand" />
             </a>
           </li>
 
-          <li>
+          <li className="list-inline-item">
             <a href="#!" className="btn">
               <IconAwesome name="pinterest" type="brand" />
             </a>
