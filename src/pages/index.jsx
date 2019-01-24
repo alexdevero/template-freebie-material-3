@@ -108,196 +108,198 @@ const IndexPage = () => (
 
     <div className="gallery gallery--fluid pb-8">
       <div className="container-fluid">
-        <div className="col-md-3">
-          <a href="#!">
-            <img src="" alt="" />
-          </a>
-        </div>
+        <div className="row">
+          <div className="col-md-3">
+            <a href="#!">
+              <img src="" alt="" />
+            </a>
+          </div>
 
-        <div className="col-md-3">
-          <a href="#!">
-            <img src="" alt="" />
-          </a>
-        </div>
+          <div className="col-md-3">
+            <a href="#!">
+              <img src="" alt="" />
+            </a>
+          </div>
 
-        <div className="col-md-3">
-          <a href="#!">
-            <img src="" alt="" />
-          </a>
-        </div>
+          <div className="col-md-3">
+            <a href="#!">
+              <img src="" alt="" />
+            </a>
+          </div>
 
-        <div className="col-md-3">
-          <a href="#!">
-            <img src="" alt="" />
-          </a>
-        </div>
+          <div className="col-md-3">
+            <a href="#!">
+              <img src="" alt="" />
+            </a>
+          </div>
 
-        <div className="col-md-3">
-          <a href="#!">
-            <img src="" alt="" />
-          </a>
-        </div>
+          <div className="col-md-3">
+            <a href="#!">
+              <img src="" alt="" />
+            </a>
+          </div>
 
-        <div className="col-md-3">
-          <a href="#!">
-            <img src="" alt="" />
-          </a>
-        </div>
+          <div className="col-md-3">
+            <a href="#!">
+              <img src="" alt="" />
+            </a>
+          </div>
 
-        <div className="col-md-3">
-          <a href="#!">
-            <img src="" alt="" />
-          </a>
-        </div>
+          <div className="col-md-3">
+            <a href="#!">
+              <img src="" alt="" />
+            </a>
+          </div>
 
-        <div className="col-md-3">
-          <a href="#!">
-            <img src="" alt="" />
-          </a>
-        </div>
+          <div className="col-md-3">
+            <a href="#!">
+              <img src="" alt="" />
+            </a>
+          </div>
 
-        <div className="col-md-3">
-          <a href="#!">
-            <img src="" alt="" />
-          </a>
-        </div>
+          <div className="col-md-3">
+            <a href="#!">
+              <img src="" alt="" />
+            </a>
+          </div>
 
-        <div className="col-md-3">
-          <a href="#!">
-            <img src="" alt="" />
-          </a>
-        </div>
+          <div className="col-md-3">
+            <a href="#!">
+              <img src="" alt="" />
+            </a>
+          </div>
 
-        <div className="col-md-3">
-          <a href="#!">
-            <img src="" alt="" />
-          </a>
-        </div>
+          <div className="col-md-3">
+            <a href="#!">
+              <img src="" alt="" />
+            </a>
+          </div>
 
-        <div className="col-md-3">
-          <a href="#!">
-            <img src="" alt="" />
-          </a>
-        </div>
+          <div className="col-md-3">
+            <a href="#!">
+              <img src="" alt="" />
+            </a>
+          </div>
 
-        <div className="col-md-3">
-          <a href="#!">
-            <img src="" alt="" />
-          </a>
-        </div>
+          <div className="col-md-3">
+            <a href="#!">
+              <img src="" alt="" />
+            </a>
+          </div>
 
-        <div className="col-md-3">
-          <a href="#!">
-            <img src="" alt="" />
-          </a>
-        </div>
+          <div className="col-md-3">
+            <a href="#!">
+              <img src="" alt="" />
+            </a>
+          </div>
 
-        <div className="col-md-3">
-          <a href="#!">
-            <img src="" alt="" />
-          </a>
-        </div>
+          <div className="col-md-3">
+            <a href="#!">
+              <img src="" alt="" />
+            </a>
+          </div>
 
-        <div className="col-md-3">
-          <a href="#!">
-            <img src="" alt="" />
-          </a>
-        </div>
+          <div className="col-md-3">
+            <a href="#!">
+              <img src="" alt="" />
+            </a>
+          </div>
 
-        <div className="col-md-3">
-          <a href="#!">
-            <img src="" alt="" />
-          </a>
-        </div>
+          <div className="col-md-3">
+            <a href="#!">
+              <img src="" alt="" />
+            </a>
+          </div>
 
-        <div className="col-md-3">
-          <a href="#!">
-            <img src="" alt="" />
-          </a>
-        </div>
+          <div className="col-md-3">
+            <a href="#!">
+              <img src="" alt="" />
+            </a>
+          </div>
 
-        <div className="col-md-3">
-          <a href="#!">
-            <img src="" alt="" />
-          </a>
-        </div>
+          <div className="col-md-3">
+            <a href="#!">
+              <img src="" alt="" />
+            </a>
+          </div>
 
-        <div className="col-md-3">
-          <a href="#!">
-            <img src="" alt="" />
-          </a>
-        </div>
+          <div className="col-md-3">
+            <a href="#!">
+              <img src="" alt="" />
+            </a>
+          </div>
 
-        <div className="col-md-3">
-          <a href="#!">
-            <img src="" alt="" />
-          </a>
-        </div>
+          <div className="col-md-3">
+            <a href="#!">
+              <img src="" alt="" />
+            </a>
+          </div>
 
-        <div className="col-md-3">
-          <a href="#!">
-            <img src="" alt="" />
-          </a>
-        </div>
+          <div className="col-md-3">
+            <a href="#!">
+              <img src="" alt="" />
+            </a>
+          </div>
 
-        <div className="col-md-3">
-          <a href="#!">
-            <img src="" alt="" />
-          </a>
-        </div>
+          <div className="col-md-3">
+            <a href="#!">
+              <img src="" alt="" />
+            </a>
+          </div>
 
-        <div className="col-md-3">
-          <a href="#!">
-            <img src="" alt="" />
-          </a>
-        </div>
+          <div className="col-md-3">
+            <a href="#!">
+              <img src="" alt="" />
+            </a>
+          </div>
 
-        <div className="col-md-3">
-          <a href="#!">
-            <img src="" alt="" />
-          </a>
-        </div>
+          <div className="col-md-3">
+            <a href="#!">
+              <img src="" alt="" />
+            </a>
+          </div>
 
-        <div className="col-md-3">
-          <a href="#!">
-            <img src="" alt="" />
-          </a>
-        </div>
+          <div className="col-md-3">
+            <a href="#!">
+              <img src="" alt="" />
+            </a>
+          </div>
 
-        <div className="col-md-3">
-          <a href="#!">
-            <img src="" alt="" />
-          </a>
-        </div>
+          <div className="col-md-3">
+            <a href="#!">
+              <img src="" alt="" />
+            </a>
+          </div>
 
-        <div className="col-md-3">
-          <a href="#!">
-            <img src="" alt="" />
-          </a>
-        </div>
+          <div className="col-md-3">
+            <a href="#!">
+              <img src="" alt="" />
+            </a>
+          </div>
 
-        <div className="col-md-3">
-          <a href="#!">
-            <img src="" alt="" />
-          </a>
-        </div>
+          <div className="col-md-3">
+            <a href="#!">
+              <img src="" alt="" />
+            </a>
+          </div>
 
-        <div className="col-md-3">
-          <a href="#!">
-            <img src="" alt="" />
-          </a>
-        </div>
+          <div className="col-md-3">
+            <a href="#!">
+              <img src="" alt="" />
+            </a>
+          </div>
 
-        <div className="col-md-3">
-          <a href="#!">
-            <img src="" alt="" />
-          </a>
-        </div>
+          <div className="col-md-3">
+            <a href="#!">
+              <img src="" alt="" />
+            </a>
+          </div>
 
-        <div className="col-md-3">
-          <a href="#!">
-            <img src="" alt="" />
-          </a>
+          <div className="col-md-3">
+            <a href="#!">
+              <img src="" alt="" />
+            </a>
+          </div>
         </div>
       </div>
     </div>
