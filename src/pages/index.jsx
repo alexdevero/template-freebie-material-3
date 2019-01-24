@@ -398,13 +398,13 @@ const IndexPage = () => (
                 <li>20 Components</li>
                 <li>3 Example Pages</li>
                 <li>
-                  <span className="fa fa-times" /> Unconventional Cards
+                  <IconAwesome name="times" type="solid" /> Unconventional Cards
                 </li>
                 <li>
-                  <span className="fa fa-times" /> Sections
+                  <IconAwesome name="times" type="solid" /> Sections
                 </li>
                 <li>
-                  <span className="fa fa-times" /> Premium Support
+                  <IconAwesome name="times" type="solid" /> Premium Support
                 </li>
               </List>
             </GridColumn>
@@ -416,13 +416,13 @@ const IndexPage = () => (
                 <li>60+ Components</li>
                 <li>10 Example Pages</li>
                 <li>
-                  <span className="fa fa-check" /> Unconventional Cards
+                  <IconAwesome name="check" type="solid" /> Unconventional Cards
                 </li>
                 <li>
-                  <span className="fa fa-check" /> Sections
+                  <IconAwesome name="check" type="solid" /> Sections
                 </li>
                 <li>
-                  <span className="fa fa-check" /> Premium Support
+                  <IconAwesome name="check" type="solid" /> Premium Support
                 </li>
               </List>
             </GridColumn>
@@ -549,8 +549,8 @@ const IndexPage = () => (
               <li>Fully Coded Components</li>
               <li>Responsive Design</li>
               <li>Product Documentation</li>
-              <li>+ React version</li>
-              <li>+ Gatsbyjs version</li>
+              <li><IconAwesome name="plus" type="solid" /> React version</li>
+              <li><IconAwesome name="plus" type="solid" /> Gatsbyjs version</li>
             </List>
           </div>
         </GridColumn>
