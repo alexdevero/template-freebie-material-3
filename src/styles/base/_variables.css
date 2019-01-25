@@ -16,6 +16,19 @@
   /* --mat-col-orange-1: #ff9800; 500 */
   /* --mat-col-deep-orange-1: #ff5722; 500 */
 
+  /* Bootstrap colors */
+  --boot-col-primary: #007bff;
+  --boot-col-secondary: #6c757d;
+  --boot-col-success: #28a745;
+  --boot-col-danger: #dc3545;
+  --boot-col-warning: #ffc107;
+  --boot-col-info: #17a2b8;
+  --boot-col-light: #f8f9fa;
+  --boot-col-dark: #343a40;
+  --boot-col-muted: #6c757d;
+  --boot-col-white: #fff;
+
+
   /* Color options */
   --mat-col-amber: #ffc107;
   --mat-col-blue: #2196f3;
