@@ -406,13 +406,13 @@ const IndexPage = () => (
                 <li>20 Components</li>
                 <li>3 Example Pages</li>
                 <li>
-                  <IconAwesome name="times" type="solid" /> Unconventional Cards
+                  <IconAwesome name="times-circle" type="regular" /> Unconventional Cards
                 </li>
                 <li>
-                  <IconAwesome name="times" type="solid" /> Sections
+                  <IconAwesome name="times-circle" type="regular" /> Sections
                 </li>
                 <li>
-                  <IconAwesome name="times" type="solid" /> Premium Support
+                  <IconAwesome name="times-circle" type="regular" /> Premium Support
                 </li>
               </List>
             </GridColumn>
@@ -424,13 +424,13 @@ const IndexPage = () => (
                 <li>60+ Components</li>
                 <li>10 Example Pages</li>
                 <li>
-                  <IconAwesome name="check" type="solid" /> Unconventional Cards
+                  <IconAwesome name="check-circle" type="regular" /> Unconventional Cards
                 </li>
                 <li>
-                  <IconAwesome name="check" type="solid" /> Sections
+                  <IconAwesome name="check-circle" type="regular" /> Sections
                 </li>
                 <li>
-                  <IconAwesome name="check" type="solid" /> Premium Support
+                  <IconAwesome name="check-circle" type="regular" /> Premium Support
                 </li>
               </List>
             </GridColumn>
