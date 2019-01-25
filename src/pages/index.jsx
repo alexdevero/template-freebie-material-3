@@ -17,31 +17,31 @@ const IndexPage = () => (
     </Jumbotron>
 
     <Section className="features pt-5 pb-8" container="default">
-      <p className="text-center">Material UI Kit is a Bootstrap UI Kit with a fresh, new design inspired by Google's Material Design. You asked for it, so we built it. It's a great pleasure to introduce to you the material concepts in an easy to use and beautiful set of components.</p>
+      <p className="text-center mb-5">Material UI Kit is a Bootstrap UI Kit with a fresh, new design inspired by Google's Material Design. You asked for it, so we built it. It's a great pleasure to introduce to you the material concepts in an easy to use and beautiful set of components.</p>
 
       <GridRow>
         <GridColumn md={4}>
-          <IconAwesome name="th" type="solid" />
+          <IconAwesome name="th" type="solid" size="2x" />
 
-          <h2 className="features__heading h3">Incredible Number of Components</h2>
+          <h2 className="features__heading h5 mt-3 mb-3">Incredible Number of Components</h2>
 
           <p className="features__slug">Every element you need in a product comes built in as a component. All components fit perfectly with each other and can take variations in color.</p>
         </GridColumn>
 
         <GridColumn md={4}>
-          <IconAwesome name="object-group" type="regular" />
+          <IconAwesome name="object-group" type="regular" size="2x" />
 
-          <h2 className="features__heading h3">Multi-Purpose Sections</h2>
+          <h2 className="features__heading h5 mt-3 mb-3">Multi-Purpose Sections</h2>
 
-          <p className="features__slug">Putting together a page has never been easier. From team presentation to pricing options. You can easily customize and built your pages in just a few seconds.</p>
+          <p className="features__slug">Putting together a page has never been easier. From team presentation to pricing options. Customize and built pages within seconds.</p>
         </GridColumn>
 
         <GridColumn md={4}>
-          <IconAwesome name="file" type="regular" />
+          <IconAwesome name="file" type="regular" size="2x" />
 
-          <h2 className="features__heading h3">Pixel-Perfect Example Pages</h2>
+          <h2 className="features__heading h5 mt-3 mb-3">Pixel-Perfect Example Pages</h2>
 
-          <p className="features__slug">If you want to get inspiration or just show something directly to your clients, you can jump start your development with our pre-built example pages.</p>
+          <p className="features__slug">Do you want to get inspiration or just show something to your clients? Jump-start your development with our pre-built example pages.</p>
         </GridColumn>
       </GridRow>
     </Section>
@@ -49,11 +49,11 @@ const IndexPage = () => (
     <Section container="default" className="pb-8">
       <GridRow>
         <GridColumn md={6}>
-          <IconAwesome name="clone" type="regular" />
+          <IconAwesome name="clone" type="regular" size="2x" />
 
-          <h2 className="h2">Basic Components</h2>
+          <h2 className="h3 mt-3">Basic Components</h2>
 
-          <h3 className="h4 mt-3 mb-3">The core elements of your website</h3>
+          <h3 className="h5 mt-3 mb-3">The core elements of your website</h3>
 
           <p>We re-styled every Bootstrap element to make it resemble Material Design and also fit with each other. All the Bootstrap components that you need in a development have been re-design with the new look. Besides the numerous basic elements, we have also created additional classes. All these items will help you take your project to the next level.</p>
         </GridColumn>
@@ -71,11 +71,11 @@ const IndexPage = () => (
         </GridColumn>
 
         <GridColumn md={6}>
-          <IconAwesome name="window-restore" type="regular" />
+          <IconAwesome name="window-restore" type="regular" size="2x" />
 
-          <h2 className="h2">Unconventional Cards</h2>
+          <h2 className="h3 mt-3">Unconventional Cards</h2>
 
-          <h3 className="h4 mt-3 mb-3">One card for every problem</h3>
+          <h3 className="h5 mt-3 mb-3">One card for every problem</h3>
 
           <p>We love cards and everybody on the web seems to. We have gone above and beyond with options for you to organise your information. From cards designed for blog posts, to product cards or user profiles, you will have many options to choose from. All the cards follow the material principles and have a design that stands out.</p>
         </GridColumn>
@@ -85,11 +85,11 @@ const IndexPage = () => (
     <Section container="default" className="pb-8">
       <GridRow>
         <GridColumn md={6}>
-          <IconAwesome name="object-group" type="regular" />
+          <IconAwesome name="object-group" type="regular" size="2x" />
 
-          <h2 className="h2">Content Areas</h2>
+          <h2 className="h3 mt-3">Content Areas</h2>
 
-          <h3 className="h4 mt-3 mb-3">For areas that need more space</h3>
+          <h3 className="h5 mt-3 mb-3">For areas that need more space</h3>
 
           <p>If you need elements such as tables, comments, description areas, tabs and many others, we've got you covered. We took into consideration multiple use cases and came up with some specific elements that you will love to use. They're beautiful and easy to use for the end user navigating your website.</p>
         </GridColumn>
@@ -101,11 +101,11 @@ const IndexPage = () => (
     </Section>
 
     <Section container="default" className="pb-8 text-center">
-      <GridRow className="justify-content-center">
+      <GridRow className="justify-content-center text-center">
         <GridColumn md={10} lg={8}>
-          <h1 className="mb-4">Ready to Use Sections</h1>
+          <h1 className="h3">Ready to Use Sections</h1>
 
-          <p>Build your page section by section! We have created multiple options for you to put together and customise into pixel perfect pages. From headers to footers, you will be able to choose the best combination for your project.</p>
+          <p className="mt-4 mb-4">Build your page section by section! We have created multiple options for you to put together and customise into pixel perfect pages. From headers to footers, you will be able to choose the best combination for your project.</p>
 
           <a href="#!" className="btn">
             View all sections
@@ -318,66 +318,68 @@ const IndexPage = () => (
         * https://www.npmjs.com/package/react-masonry-layout
         */}
 
-      <h1 className="h2">Example Pages</h1>
+      <div className="text-center">
+        <h1 className="h3">Example Pages</h1>
 
-      <p>The easiest way to get started is to use one of our pre-built example pages. From landing pages to e-commerce or blog pages, you will be able jump start your development. Show your clients a quick prototype and get inspired for your next project!</p>
+        <p className="mt-4 mb-4">The easiest way to get started is to use one of our pre-built example pages. From landing pages to e-commerce or blog pages, you will be able jump start your development. Show your clients a quick prototype and get inspired for your next project!</p>
+      </div>
 
       <div>
-        <h2 className="h3">About Us</h2>
+        <h2 className="h5">About Us</h2>
 
         <img src="" alt="" />
       </div>
 
       <div>
-        <h2 className="h3">Landing Page</h2>
+        <h2 className="h5">Landing Page</h2>
 
         <img src="" alt="" />
       </div>
 
       <div>
-        <h2 className="h3">Contact Us</h2>
+        <h2 className="h5">Contact Us</h2>
 
         <img src="" alt="" />
       </div>
 
       <div>
-        <h2 className="h3">Blog Post</h2>
+        <h2 className="h5">Blog Post</h2>
 
         <img src="" alt="" />
       </div>
 
       <div>
-        <h2 className="h3">Product Page</h2>
+        <h2 className="h5">Product Page</h2>
 
         <img src="" alt="" />
       </div>
 
       <div>
-        <h2 className="h3">Login Page</h2>
+        <h2 className="h5">Login Page</h2>
 
         <img src="" alt="" />
       </div>
 
       <div>
-        <h2 className="h3">Pricing Page</h2>
+        <h2 className="h5">Pricing Page</h2>
 
         <img src="" alt="" />
       </div>
 
       <div>
-        <h2 className="h3">Signup Page</h2>
+        <h2 className="h5">Signup Page</h2>
 
         <img src="" alt="" />
       </div>
 
       <div>
-        <h2 className="h3">Profile Page</h2>
+        <h2 className="h5">Profile Page</h2>
 
         <img src="" alt="" />
       </div>
 
       <div>
-        <h2 className="h3">Blog Posts</h2>
+        <h2 className="h5">Blog Posts</h2>
 
         <img src="" alt="" />
       </div>
@@ -386,7 +388,7 @@ const IndexPage = () => (
     <Section className="demo pb-8" container="default">
       <GridRow>
         <GridColumn md={6}>
-          <h1 className="h2">Free Demo</h1>
+          <h1 className="h4">Free Demo</h1>
 
           <p>Do you want to test and see the benefits of this kit before purchasing it? You can give the demo version a try. It features enough basic components for you to get a feel of the design and also test the quality of the code. Get it free on GitHub!</p>
 
@@ -398,7 +400,7 @@ const IndexPage = () => (
         <GridColumn md={6}>
           <GridRow>
             <GridColumn md={6}>
-              <h2 className="h2">Free Demo</h2>
+              <h2 className="h5">Free Demo</h2>
 
               <List type="unstyled">
                 <li>20 Components</li>
@@ -416,7 +418,7 @@ const IndexPage = () => (
             </GridColumn>
 
             <GridColumn md={6}>
-              <h2 className="h2">PRO Version</h2>
+              <h2 className="h5">PRO Version</h2>
 
               <List type="unstyled">
                 <li>60+ Components</li>
@@ -438,55 +440,57 @@ const IndexPage = () => (
     </Section>
 
     <Section className="benefits pb-8" container="default">
-      <h1 className="h2">Your work will get much easier</h1>
+      <h1 className="h3 mb-5 text-center">Your work will get much easier</h1>
 
       <GridRow>
         <GridColumn md={3}>
-          <IconAwesome name="th" type="solid" />
+          <IconAwesome name="th" type="solid" size="2x" />
 
-          <h2 className="benefits__heading h3">Bootstrap Grid</h2>
+          <h2 className="benefits__heading h4 mt-3 mb-3">Bootstrap Grid</h2>
 
-          <p className="benefits__slug">Enjoy the fluid grid system based on 12 columns. Material Kit PRO is built over Bootstrap and has all the benefits that the framework comes with.</p>
+          <p className="benefits__slug">Enjoy the perfection of fluid grid system based on 12 columns. Material Kit PRO is built on top of Bootstrap and has all the benefits the framework has to offer.</p>
         </GridColumn>
 
         <GridColumn md={3}>
-          <IconAwesome name="desktop" type="solid" />
+          <IconAwesome name="desktop" type="solid" size="2x" />
 
-          <h2 className="benefits__heading h3">Fully Responsive</h2>
+          <h2 className="benefits__heading h5 mt-3 mb-3">Fully Responsive</h2>
 
-          <p className="benefits__slug">This Bootstrap kit is built mobile-first and looks amazing on any device. Regardless of the screen size, the website content will naturally fit the given resolution.</p>
+          <p className="benefits__slug">This Bootstrap kit is built mobile-first and looks amazing on any device. Regardless of the screen size, the website content will naturally fit any resolution.</p>
         </GridColumn>
 
         <GridColumn md={3}>
-          <IconAwesome name="clock" type="regular" />
+          <IconAwesome name="clock" type="regular" size="2x" />
 
-          <h2 className="benefits__heading h3">Save Time</h2>
+          <h2 className="benefits__heading h5 mt-3 mb-3">Save Time</h2>
 
           <p className="benefits__slug">Using the Material Kit PRO will save you large amount of time. You don't have to worry about customising the basic Bootstrap design or generating new components.</p>
         </GridColumn>
 
         <GridColumn md={3}>
-          <IconAwesome name="money-bill-alt" type="regular" />
+          <IconAwesome name="money-bill-alt" type="regular" size="2x" />
 
-          <h2 className="benefits__heading h3">Save Money</h2>
+          <h2 className="benefits__heading h5 mt-3 mb-3">Save Money</h2>
 
-          <p className="benefits__slug">Creating your design from scratch with dedicated designers can be very expensive. Using a kit is the best option to start your development while bootstrapping your budget.</p>
+          <p className="benefits__slug">Creating your design from scratch with dedicated designers is very expensive. Using a kit is the best option to start your development while saving your budget.</p>
         </GridColumn>
       </GridRow>
     </Section>
 
     <Section className="testimonials pb-8" container="default">
-      <IconAwesome name="star" type="regular" />
+      <div className="text-center">
+        <IconAwesome name="star" type="regular" size="2x" />
 
-      <h1 className="h2">Trusted by 1.000+ People</h1>
+        <h1 className="h3 mt-4 mb-4">Trusted by 1.000+ People</h1>
 
-      <p>This UI Kit, has been used and tested by 1,000+ web developers and web designers in over 10.000 Web Projects. This is what some of them say:</p>
+      	<p>This UI Kit, has been used and tested by 1,000+ web developers and web designers in over 10.000 Web Projects. This is what some of them say:</p>
+      </div>
 
       <GridRow>
         <GridColumn md={4}>
           <img src="" alt="" className="testimonials__avatar" />
 
-          <h2 className="testimonials__text h3">Sergey Vlademov</h2>
+          <h2 className="testimonials__text h5">Sergey Vlademov</h2>
 
           <p className="testimonials__text">"As soon as I saw this kit, everything else isn't the same anymore, I just can't describe it guys! Thank you for this work!"</p>
         </GridColumn>
@@ -494,7 +498,7 @@ const IndexPage = () => (
         <GridColumn md={4}>
           <img src="" alt="" className="testimonials__avatar" />
 
-          <h2 className="testimonials__text h3">Steven Bauman</h2>
+          <h2 className="testimonials__text h5">Steven Bauman</h2>
 
           <p className="testimonials__text">"Great kit! Used this for a client already and he is over the moon. Keep up the good work Creative Tim! 10/10 for design, colors, and the feel of the kit."</p>
         </GridColumn>
@@ -502,7 +506,7 @@ const IndexPage = () => (
         <GridColumn md={4}>
           <img src="" alt="" className="testimonials__avatar" />
 
-          <h2 className="testimonials__text h3">Sunjay Pital</h2>
+          <h2 className="testimonials__text h5">Sunjay Pital</h2>
 
           <p className="testimonials__text">"Damn Alex!!! This Material UI Kit is fresh AF! Amazing work!"</p>
         </GridColumn>
@@ -510,20 +514,24 @@ const IndexPage = () => (
     </Section>
 
     <Section className="cta pb-8" container="default">
-      <IconAwesome name="crown" type="solid" />
+      <div className="text-center">
+        <IconAwesome name="crown" type="solid" size="2x" />
 
-      <h1 className="h2">Ready to get your Material UI Kit Pro?</h1>
+        <h1 className="h3 mt-4 mb-4">Ready to get your Material UI Kit Pro?</h1>
+      </div>
 
-      <div className="switch">
-        <label htmlFor="" className="switch__label">
-          Personal license
-        </label>
+      <div className="text-center mb-4">
+        <div className="switch">
+          <label htmlFor="" className="switch__label">
+            Personal license
+          </label>
 
-        <input type="checkbox" className="switch__checkbox" />
+          <input type="checkbox" className="switch__checkbox" />
 
-        <label htmlFor="" className="switch__label">
-          Developer license
-        </label>
+          <label htmlFor="" className="switch__label">
+            Developer license
+          </label>
+        </div>
       </div>
 
       {/*this.state.isPersonal ? (
@@ -535,9 +543,9 @@ const IndexPage = () => (
       <GridRow>
         <GridColumn md={6}>
           <div className="plan plan--lite">
-            <h2 className="h3">HTML Package</h2>
+            <h2 className="h4">HTML Package</h2>
 
-            <h3 className="h4">{/*this.state.isPersonal ? '$79' : '$229'*/}</h3>
+            <h3 className="h5">{/*this.state.isPersonal ? '$79' : '$229'*/}</h3>
 
             <List type="unstyled">
               <li>HTML/CSS/JS Files</li>
@@ -550,9 +558,9 @@ const IndexPage = () => (
 
         <GridColumn md={6}>
           <div className="plan plan--full">
-            <h2 className="h3">HTML + React Package</h2>
+            <h2 className="h4">HTML + React Package</h2>
 
-            <h3 className="h4">{/*this.state.isPersonal ? '$139' : '¨$599'*/}</h3>
+            <h3 className="h5">{/*this.state.isPersonal ? '$139' : '¨$599'*/}</h3>
 
             <List type="unstyled">
               <li>HTML/CSS/JS/React Files</li>
