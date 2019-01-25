@@ -53,7 +53,7 @@ const IndexPage = () => (
 
           <h2 className="h3 mt-3">Basic Components</h2>
 
-          <h3 className="h5 mt-3 mb-3">The core elements of your website</h3>
+          <h3 className="h6 mt-3 mb-3 text-muted">The core elements of your website</h3>
 
           <p>We re-styled every Bootstrap element to make it resemble Material Design and also fit with each other. All the Bootstrap components that you need in a development have been re-design with the new look. Besides the numerous basic elements, we have also created additional classes. All these items will help you take your project to the next level.</p>
         </GridColumn>
@@ -75,7 +75,7 @@ const IndexPage = () => (
 
           <h2 className="h3 mt-3">Unconventional Cards</h2>
 
-          <h3 className="h5 mt-3 mb-3">One card for every problem</h3>
+          <h3 className="h6 mt-3 mb-3 text-muted">One card for every problem</h3>
 
           <p>We love cards and everybody on the web seems to. We have gone above and beyond with options for you to organise your information. From cards designed for blog posts, to product cards or user profiles, you will have many options to choose from. All the cards follow the material principles and have a design that stands out.</p>
         </GridColumn>
@@ -89,7 +89,7 @@ const IndexPage = () => (
 
           <h2 className="h3 mt-3">Content Areas</h2>
 
-          <h3 className="h5 mt-3 mb-3">For areas that need more space</h3>
+          <h3 className="h6 mt-3 mb-3 text-muted">For areas that need more space</h3>
 
           <p>If you need elements such as tables, comments, description areas, tabs and many others, we've got you covered. We took into consideration multiple use cases and came up with some specific elements that you will love to use. They're beautiful and easy to use for the end user navigating your website.</p>
         </GridColumn>
