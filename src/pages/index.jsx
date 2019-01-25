@@ -107,7 +107,7 @@ const IndexPage = () => (
 
           <p className="mt-4 mb-4">Build your page section by section! We have created multiple options for you to put together and customise into pixel perfect pages. From headers to footers, you will be able to choose the best combination for your project.</p>
 
-          <a href="#!" className="btn">
+          <a href="#!" className="btn btn-primary">
             View all sections
           </a>
         </GridColumn>
@@ -392,7 +392,7 @@ const IndexPage = () => (
 
           <p>Do you want to test and see the benefits of this kit before purchasing it? You can give the demo version a try. It features enough basic components for you to get a feel of the design and also test the quality of the code. Get it free on GitHub!</p>
 
-          <a href="#!" className="btn">
+          <a href="#!" className="btn btn-primary">
             View demo on GitHub
           </a>
         </GridColumn>
