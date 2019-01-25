@@ -21,23 +21,23 @@ const IndexPage = () => (
 
       <GridRow>
         <GridColumn md={4}>
-          <img src="" alt="" className="features__icon" />
+          <IconAwesome name="th" type="solid" />
 
-          <h2 className="features__heading h3">Incredibly Number of Components</h2>
+          <h2 className="features__heading h3">Incredible Number of Components</h2>
 
-          <p className="features__slug">Every element that you need in a product comes built in as a component. All components fit perfectly with each other and can take variations in colour.</p>
+          <p className="features__slug">Every element you need in a product comes built in as a component. All components fit perfectly with each other and can take variations in color.</p>
         </GridColumn>
 
         <GridColumn md={4}>
-          <img src="" alt="" className="features__icon" />
+          <IconAwesome name="object-group" type="regular" />
 
           <h2 className="features__heading h3">Multi-Purpose Sections</h2>
 
-          <p className="features__slug">Putting together a page has never been easier than matching together sections. From team presentation to pricing options, you can easily customize and built your pages.</p>
+          <p className="features__slug">Putting together a page has never been easier. From team presentation to pricing options. You can easily customize and built your pages in just a few seconds.</p>
         </GridColumn>
 
         <GridColumn md={4}>
-          <img src="" alt="" className="features__icon" />
+          <IconAwesome name="file" type="regular" />
 
           <h2 className="features__heading h3">Pixel-Perfect Example Pages</h2>
 
@@ -49,6 +49,8 @@ const IndexPage = () => (
     <Section container="default" className="pb-8">
       <GridRow>
         <GridColumn md={6}>
+          <IconAwesome name="clone" type="regular" />
+
           <h2 className="h2">Basic Components</h2>
 
           <h3 className="h4 mt-3 mb-3">The core elements of your website</h3>
@@ -69,6 +71,8 @@ const IndexPage = () => (
         </GridColumn>
 
         <GridColumn md={6}>
+          <IconAwesome name="window-restore" type="regular" />
+
           <h2 className="h2">Unconventional Cards</h2>
 
           <h3 className="h4 mt-3 mb-3">One card for every problem</h3>
@@ -81,6 +85,8 @@ const IndexPage = () => (
     <Section container="default" className="pb-8">
       <GridRow>
         <GridColumn md={6}>
+          <IconAwesome name="object-group" type="regular" />
+
           <h2 className="h2">Content Areas</h2>
 
           <h3 className="h4 mt-3 mb-3">For areas that need more space</h3>
@@ -436,7 +442,7 @@ const IndexPage = () => (
 
       <GridRow>
         <GridColumn md={3}>
-          <img src="" alt="" className="benefits__icon" />
+          <IconAwesome name="th" type="solid" />
 
           <h2 className="benefits__heading h3">Bootstrap Grid</h2>
 
@@ -444,7 +450,7 @@ const IndexPage = () => (
         </GridColumn>
 
         <GridColumn md={3}>
-          <img src="" alt="" className="benefits__icon" />
+          <IconAwesome name="desktop" type="solid" />
 
           <h2 className="benefits__heading h3">Fully Responsive</h2>
 
@@ -452,7 +458,7 @@ const IndexPage = () => (
         </GridColumn>
 
         <GridColumn md={3}>
-          <img src="" alt="" className="benefits__icon" />
+          <IconAwesome name="clock" type="regular" />
 
           <h2 className="benefits__heading h3">Save Time</h2>
 
@@ -460,7 +466,7 @@ const IndexPage = () => (
         </GridColumn>
 
         <GridColumn md={3}>
-          <img src="" alt="" className="benefits__icon" />
+          <IconAwesome name="money-bill-alt" type="regular" />
 
           <h2 className="benefits__heading h3">Save Money</h2>
 
@@ -470,6 +476,8 @@ const IndexPage = () => (
     </Section>
 
     <Section className="testimonials pb-8" container="default">
+      <IconAwesome name="star" type="regular" />
+
       <h1 className="h2">Trusted by 1.000+ People</h1>
 
       <p>This UI Kit, has been used and tested by 1,000+ web developers and web designers in over 10.000 Web Projects. This is what some of them say:</p>
@@ -488,7 +496,7 @@ const IndexPage = () => (
 
           <h2 className="testimonials__text h3">Steven Bauman</h2>
 
-          <p className="testimonials__text">"Great kit! Used this for a client already and he is over the moon. Keep up the good work Creative Tim! 10/10 for design, colours, and the feel of the kit."</p>
+          <p className="testimonials__text">"Great kit! Used this for a client already and he is over the moon. Keep up the good work Creative Tim! 10/10 for design, colors, and the feel of the kit."</p>
         </GridColumn>
 
         <GridColumn md={4}>
@@ -502,6 +510,8 @@ const IndexPage = () => (
     </Section>
 
     <Section className="cta pb-8" container="default">
+      <IconAwesome name="crown" type="solid" />
+
       <h1 className="h2">Ready to get your Material UI Kit Pro?</h1>
 
       <div className="switch">
