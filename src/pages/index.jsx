@@ -23,7 +23,7 @@ const IndexPage = () => (
 
       <GridRow>
         <GridColumn md={4}>
-          <IconAwesome className="text-primary" name="clone" type="regular" size="2x" />
+          <IconAwesome className="text-primary" name="puzzle-piece" type="solid" size="2x" />
 
           <h2 className="features__heading h5 mt-3 mb-3">Incredible Number of Components</h2>
 
@@ -51,7 +51,7 @@ const IndexPage = () => (
     <Section container="default" className="pb-8">
       <GridRow>
         <GridColumn md={6}>
-          <IconAwesome className="text-blue" name="clone" type="regular" size="2x" />
+          <IconAwesome className="text-blue" name="dice-d20" type="solid" size="2x" />
 
           <h2 className="h3 mt-3">Basic Components</h2>
 
@@ -73,7 +73,7 @@ const IndexPage = () => (
         </GridColumn>
 
         <GridColumn md={6}>
-          <IconAwesome className="text-blue-light" name="window-restore" type="regular" size="2x" />
+          <IconAwesome className="text-blue-light" name="trello" type="brand" size="2x" />
 
           <h2 className="h3 mt-3">Unconventional Cards</h2>
 
@@ -87,7 +87,7 @@ const IndexPage = () => (
     <Section container="default" className="pb-8">
       <GridRow>
         <GridColumn md={6}>
-          <IconAwesome className="text-cyan" name="object-group" type="regular" size="2x" />
+          <IconAwesome className="text-cyan" name="object-ungroup" type="regular" size="2x" />
 
           <h2 className="h3 mt-3">Content Areas</h2>
 
@@ -105,7 +105,9 @@ const IndexPage = () => (
     <Section container="default" className="pb-8 text-center">
       <GridRow className="justify-content-center text-center">
         <GridColumn md={10} lg={8}>
-          <h1 className="h3">Ready to Use Sections</h1>
+          <IconAwesome className="text-cyan" name="object-group" type="regular" size="2x" />
+
+          <h1 className="h3 mt-4">Ready to Use Sections</h1>
 
           <p className="mt-4 mb-4">Build your page section by section! We have created multiple options for you to put together and customise into pixel perfect pages. From headers to footers, you will be able to choose the best combination for your project.</p>
 
@@ -321,7 +323,9 @@ const IndexPage = () => (
         */}
 
       <div className="text-center">
-        <h1 className="h3">Example Pages</h1>
+        <IconAwesome className="text-indigo" name="file" type="regular" size="2x" />
+
+        <h1 className="h3 mt-4">Example Pages</h1>
 
         <p className="mt-4 mb-4">The easiest way to get started is to use one of our pre-built example pages. From landing pages to e-commerce or blog pages, you will be able jump start your development. Show your clients a quick prototype and get inspired for your next project!</p>
       </div>
