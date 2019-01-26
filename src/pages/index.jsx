@@ -11,7 +11,9 @@ import { Section } from '../components/section'
 const IndexPage = () => (
   <Layout pageTitle="Home">
     <Jumbotron className="d-flex justify-content-center align-items-center text-center" type="large" isFluid={true}>
-      <h1 className="display-4">Welcome to Material</h1>
+      <IconAwesome className="text-warning" name="crown" type="solid" size="2x" />
+
+      <h1 className="display-4 mt-2">Welcome to Material</h1>
 
       <p className="lead mb-0">Start the development with this awesome Bootstrap 4 UI Kit inspired by Material Design.</p>
     </Jumbotron>
@@ -21,7 +23,7 @@ const IndexPage = () => (
 
       <GridRow>
         <GridColumn md={4}>
-          <IconAwesome name="th" type="solid" size="2x" />
+          <IconAwesome className="text-primary" name="clone" type="regular" size="2x" />
 
           <h2 className="features__heading h5 mt-3 mb-3">Incredible Number of Components</h2>
 
@@ -29,7 +31,7 @@ const IndexPage = () => (
         </GridColumn>
 
         <GridColumn md={4}>
-          <IconAwesome name="object-group" type="regular" size="2x" />
+          <IconAwesome className="text-cyan" name="object-group" type="regular" size="2x" />
 
           <h2 className="features__heading h5 mt-3 mb-3">Multi-Purpose Sections</h2>
 
@@ -37,7 +39,7 @@ const IndexPage = () => (
         </GridColumn>
 
         <GridColumn md={4}>
-          <IconAwesome name="file" type="regular" size="2x" />
+          <IconAwesome className="text-indigo" name="file" type="regular" size="2x" />
 
           <h2 className="features__heading h5 mt-3 mb-3">Pixel-Perfect Example Pages</h2>
 
@@ -49,7 +51,7 @@ const IndexPage = () => (
     <Section container="default" className="pb-8">
       <GridRow>
         <GridColumn md={6}>
-          <IconAwesome name="clone" type="regular" size="2x" />
+          <IconAwesome className="text-blue" name="clone" type="regular" size="2x" />
 
           <h2 className="h3 mt-3">Basic Components</h2>
 
@@ -71,7 +73,7 @@ const IndexPage = () => (
         </GridColumn>
 
         <GridColumn md={6}>
-          <IconAwesome name="window-restore" type="regular" size="2x" />
+          <IconAwesome className="text-blue-light" name="window-restore" type="regular" size="2x" />
 
           <h2 className="h3 mt-3">Unconventional Cards</h2>
 
@@ -85,7 +87,7 @@ const IndexPage = () => (
     <Section container="default" className="pb-8">
       <GridRow>
         <GridColumn md={6}>
-          <IconAwesome name="object-group" type="regular" size="2x" />
+          <IconAwesome className="text-cyan" name="object-group" type="regular" size="2x" />
 
           <h2 className="h3 mt-3">Content Areas</h2>
 
@@ -444,7 +446,7 @@ const IndexPage = () => (
 
       <GridRow>
         <GridColumn md={3}>
-          <IconAwesome name="th" type="solid" size="2x" />
+          <IconAwesome className="text-dark" name="th" type="solid" size="2x" />
 
           <h2 className="benefits__heading h4 mt-3 mb-3">Bootstrap Grid</h2>
 
@@ -452,7 +454,7 @@ const IndexPage = () => (
         </GridColumn>
 
         <GridColumn md={3}>
-          <IconAwesome name="desktop" type="solid" size="2x" />
+          <IconAwesome className="text-secondary" name="desktop" type="solid" size="2x" />
 
           <h2 className="benefits__heading h5 mt-3 mb-3">Fully Responsive</h2>
 
@@ -460,7 +462,7 @@ const IndexPage = () => (
         </GridColumn>
 
         <GridColumn md={3}>
-          <IconAwesome name="clock" type="regular" size="2x" />
+          <IconAwesome className="text-primary" name="clock" type="regular" size="2x" />
 
           <h2 className="benefits__heading h5 mt-3 mb-3">Save Time</h2>
 
@@ -468,7 +470,7 @@ const IndexPage = () => (
         </GridColumn>
 
         <GridColumn md={3}>
-          <IconAwesome name="money-bill-alt" type="regular" size="2x" />
+          <IconAwesome className="text-teal" name="money-bill-alt" type="regular" size="2x" />
 
           <h2 className="benefits__heading h5 mt-3 mb-3">Save Money</h2>
 
@@ -479,7 +481,7 @@ const IndexPage = () => (
 
     <Section className="testimonials pb-8" container="default">
       <div className="text-center">
-        <IconAwesome name="star" type="regular" size="2x" />
+        <IconAwesome className="text-warning" name="star" type="regular" size="2x" />
 
         <h1 className="h3 mt-4 mb-4">Trusted by 1.000+ People</h1>
 
@@ -515,7 +517,7 @@ const IndexPage = () => (
 
     <Section className="cta pb-8" container="default">
       <div className="text-center">
-        <IconAwesome name="crown" type="solid" size="2x" />
+        <IconAwesome className="text-warning" name="crown" type="solid" size="2x" />
 
         <h1 className="h3 mt-4 mb-4">Ready to get your Material UI Kit Pro?</h1>
       </div>
