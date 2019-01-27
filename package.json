@@ -9,6 +9,7 @@
     "Firefox >= 59",
     "IE 11",
     "last 4 versions",
+    "not dead",
     "Safari >= 9"
   ],
   "eslintConfig": {
