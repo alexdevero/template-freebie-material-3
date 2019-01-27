@@ -5,6 +5,8 @@ import { Helmet } from 'react-helmet'
 
 import * as serviceWorker from './serviceWorker'
 
+// Import components
+
 // Import pages
 import NotFoundPage from './pages/404'
 import About from './pages/about'
@@ -19,10 +21,8 @@ import StyleguidePage from './pages/styleguide'
 // Import Presentation Panel for
 import { PresentationPanel } from './components/presentation-panel'
 
-// Import components
-
-// Import main CSS stylesheet
-import './styles/styles.css'
+// Import main Sass stylesheet
+import './styles/styles.scss'
 
 class App extends React.Component {
   state = {
