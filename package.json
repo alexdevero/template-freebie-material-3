@@ -21,10 +21,10 @@
     "copy:jquery": "cp ./node_modules/jquery/dist/jquery.slim.min.js ./public/scripts",
     "copy:popper": "cp ./node_modules/popper.js/dist/popper.min.js ./public/scripts",
     "copy": "npm run copy:bootstrap:css && npm run copy:bootstrap:js && npm run copy:jquery && npm run copy:popper",
-    "start": "react-app-rewired start",
-    "build": "react-app-rewired build",
-    "test": "react-app-rewired test",
-    "eject": "react-app-rewired eject"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "dependencies": {
     "bootstrap": "^4.2.1",
