@@ -598,7 +598,7 @@ const IndexPage = () => (
 
       <GridRow className="justify-content-center mt-4 text-center">
         <GridColumn md={10} lg={8}>
-          <p className="mb-0">You have Free Unlimited Updates and limited premium support on each package. You also have 30 days to request a refund if you're not happy with your purchase.</p>
+          <p className="mb-0"><em>You have Free Unlimited Updates and limited premium support on each package. You also have 30 days to request a refund if you're not happy with your purchase.</em></p>
         </GridColumn>
       </GridRow>
     </Section>
