@@ -336,65 +336,67 @@ const IndexPage = () => (
         </GridColumn>
       </GridRow>
 
-      <div>
-        <h2 className="h5">About Us</h2>
+      <GridRow className="justify-content-center mt-3 text-center">
+        <GridColumn md={6} lg={4} xl={3}>
+          <h2 className="h5">About Us</h2>
 
-        <img src="" alt="" />
-      </div>
+          <img src="" alt="" />
+        </GridColumn>
 
-      <div>
-        <h2 className="h5">Landing Page</h2>
+        <GridColumn md={6} lg={4} xl={3}>
+          <h2 className="h5">Landing Page</h2>
 
-        <img src="" alt="" />
-      </div>
+          <img src="" alt="" />
+        </GridColumn>
 
-      <div>
-        <h2 className="h5">Contact Us</h2>
+        <GridColumn md={6} lg={4} xl={3}>
+          <h2 className="h5">Contact Us</h2>
 
-        <img src="" alt="" />
-      </div>
+          <img src="" alt="" />
+        </GridColumn>
 
-      <div>
-        <h2 className="h5">Blog Post</h2>
+        <GridColumn md={6} lg={4} xl={3}>
+          <h2 className="h5">Blog Post</h2>
 
-        <img src="" alt="" />
-      </div>
+          <img src="" alt="" />
+        </GridColumn>
 
-      <div>
-        <h2 className="h5">Product Page</h2>
+        <GridColumn md={6} lg={4} xl={3}>
+          <h2 className="h5">Product Page</h2>
 
-        <img src="" alt="" />
-      </div>
+          <img src="" alt="" />
+        </GridColumn>
 
-      <div>
-        <h2 className="h5">Login Page</h2>
+        <GridColumn md={6} lg={4} xl={3}>
+          <h2 className="h5">Login Page</h2>
 
-        <img src="" alt="" />
-      </div>
+          <img src="" alt="" />
+        </GridColumn>
 
-      <div>
-        <h2 className="h5">Pricing Page</h2>
+        <GridColumn md={6} lg={4} xl={3}>
+          <h2 className="h5">Pricing Page</h2>
 
-        <img src="" alt="" />
-      </div>
+          <img src="" alt="" />
+        </GridColumn>
 
-      <div>
-        <h2 className="h5">Signup Page</h2>
+        <GridColumn md={6} lg={4} xl={3}>
+          <h2 className="h5">Signup Page</h2>
 
-        <img src="" alt="" />
-      </div>
+          <img src="" alt="" />
+        </GridColumn>
 
-      <div>
-        <h2 className="h5">Profile Page</h2>
+        <GridColumn md={6} lg={4} xl={3}>
+          <h2 className="h5">Profile Page</h2>
 
-        <img src="" alt="" />
-      </div>
+          <img src="" alt="" />
+        </GridColumn>
 
-      <div>
-        <h2 className="h5">Blog Posts</h2>
+        <GridColumn md={6} lg={4} xl={3}>
+          <h2 className="h5">Blog Posts</h2>
 
-        <img src="" alt="" />
-      </div>
+          <img src="" alt="" />
+        </GridColumn>
+      </GridRow>
     </Section>
 
     <Section className="demo pb-8" container="default">
