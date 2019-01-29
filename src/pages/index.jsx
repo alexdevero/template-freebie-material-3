@@ -502,29 +502,35 @@ const IndexPage = () => (
         </GridColumn>
       </GridRow>
 
-      <GridRow>
+      <GridRow className="mt-4">
         <GridColumn md={4}>
-          <img src="" alt="" className="testimonials__avatar" />
+          <blockquote className="blockquote">
+            {/* <img src="" alt="" className="testimonials__avatar" /> */}
 
-          <h2 className="testimonials__text h5">Sergey Vlademov</h2>
+            <p className="text-16">"As soon as I saw this kit, everything else isn't the same anymore, I just can't describe it guys! Thank you for this work!"</p>
 
-          <p className="testimonials__text">"As soon as I saw this kit, everything else isn't the same anymore, I just can't describe it guys! Thank you for this work!"</p>
+            <footer className="blockquote-footer">Sergey Vlademov</footer>
+          </blockquote>
         </GridColumn>
 
         <GridColumn md={4}>
-          <img src="" alt="" className="testimonials__avatar" />
+          <blockquote className="blockquote">
+            {/* <img src="" alt="" className="testimonials__avatar" /> */}
 
-          <h2 className="testimonials__text h5">Steven Bauman</h2>
+            <p className="text-16">Great kit! Used this for a client already and he is over the moon. Keep up the good work Creative Tim! 10/10 for design, colors, and the feel of the kit.</p>
 
-          <p className="testimonials__text">"Great kit! Used this for a client already and he is over the moon. Keep up the good work Creative Tim! 10/10 for design, colors, and the feel of the kit."</p>
+            <footer className="blockquote-footer">Steven Bauman</footer>
+          </blockquote>
         </GridColumn>
 
         <GridColumn md={4}>
-          <img src="" alt="" className="testimonials__avatar" />
+          <blockquote className="blockquote">
+            {/* <img src="" alt="" className="testimonials__avatar" /> */}
 
-          <h2 className="testimonials__text h5">Sunjay Pital</h2>
+            <p className="text-16">Damn Alex!!! This Material UI Kit is fresh AF! Amazing work!</p>
 
-          <p className="testimonials__text">"Damn Alex!!! This Material UI Kit is fresh AF! Amazing work!"</p>
+            <footer className="blockquote-footer">Sunjay Pital</footer>
+          </blockquote>
         </GridColumn>
       </GridRow>
     </Section>
