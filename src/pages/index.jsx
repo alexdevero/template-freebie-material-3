@@ -19,7 +19,11 @@ const IndexPage = () => (
     </Jumbotron>
 
     <Section className="features pt-5 pb-8" container="default">
-      <p className="text-center mb-5">Material UI Kit is a Bootstrap UI Kit with a fresh, new design inspired by Google's Material Design. You asked for it, so we built it. It's a great pleasure to introduce to you the material concepts in an easy to use and beautiful set of components.</p>
+      <GridRow className="justify-content-center text-center">
+        <GridColumn md={10} lg={8}>
+          <p className="text-center mb-5">Material UI Kit is a Bootstrap UI Kit with a fresh, new design inspired by Google's Material Design. You asked for it, so we built it. It's a great pleasure to introduce to you the material concepts in an easy to use and beautiful set of components.</p>
+        </GridColumn>
+      </GridRow>
 
       <GridRow>
         <GridColumn md={4}>
@@ -322,13 +326,15 @@ const IndexPage = () => (
         * https://www.npmjs.com/package/react-masonry-layout
         */}
 
-      <div className="text-center">
-        <IconAwesome className="text-indigo" name="file" type="regular" size="2x" />
+      <GridRow className="justify-content-center text-center">
+        <GridColumn md={10} lg={8}>
+          <IconAwesome className="text-indigo" name="file" type="regular" size="2x" />
 
-        <h1 className="h3 mt-4">Example Pages</h1>
+          <h1 className="h3 mt-4">Example Pages</h1>
 
-        <p className="mt-4 mb-4">The easiest way to get started is to use one of our pre-built example pages. From landing pages to e-commerce or blog pages, you will be able jump start your development. Show your clients a quick prototype and get inspired for your next project!</p>
-      </div>
+          <p className="mt-4 mb-4">The easiest way to get started is to use one of our pre-built example pages. From landing pages to e-commerce or blog pages, you will be able jump start your development. Show your clients a quick prototype and get inspired for your next project!</p>
+        </GridColumn>
+      </GridRow>
 
       <div>
         <h2 className="h5">About Us</h2>
@@ -449,7 +455,7 @@ const IndexPage = () => (
       <h1 className="h3 mb-5 text-center">Your work will get much easier</h1>
 
       <GridRow>
-        <GridColumn md={3}>
+        <GridColumn md={6} lg={3}>
           <IconAwesome className="text-dark" name="th" type="solid" size="2x" />
 
           <h2 className="benefits__heading h4 mt-3 mb-3">Bootstrap Grid</h2>
@@ -457,7 +463,7 @@ const IndexPage = () => (
           <p className="benefits__slug">Enjoy the perfection of fluid grid system based on 12 columns. Material Kit PRO is built on top of Bootstrap and has all the benefits the framework has to offer.</p>
         </GridColumn>
 
-        <GridColumn md={3}>
+        <GridColumn md={6} lg={3}>
           <IconAwesome className="text-secondary" name="desktop" type="solid" size="2x" />
 
           <h2 className="benefits__heading h5 mt-3 mb-3">Fully Responsive</h2>
@@ -465,7 +471,7 @@ const IndexPage = () => (
           <p className="benefits__slug">This Bootstrap kit is built mobile-first and looks amazing on any device. Regardless of the screen size, the website content will naturally fit any resolution.</p>
         </GridColumn>
 
-        <GridColumn md={3}>
+        <GridColumn md={6} lg={3}>
           <IconAwesome className="text-primary" name="clock" type="regular" size="2x" />
 
           <h2 className="benefits__heading h5 mt-3 mb-3">Save Time</h2>
@@ -473,7 +479,7 @@ const IndexPage = () => (
           <p className="benefits__slug">Using the Material Kit PRO will save you large amount of time. You don't have to worry about customising the basic Bootstrap design or generating new components.</p>
         </GridColumn>
 
-        <GridColumn md={3}>
+        <GridColumn md={6} lg={3}>
           <IconAwesome className="text-teal" name="money-bill-alt" type="regular" size="2x" />
 
           <h2 className="benefits__heading h5 mt-3 mb-3">Save Money</h2>
@@ -484,13 +490,15 @@ const IndexPage = () => (
     </Section>
 
     <Section className="testimonials pb-8" container="default">
-      <div className="text-center">
-        <IconAwesome className="text-warning" name="star" type="regular" size="2x" />
+      <GridRow className="justify-content-center text-center">
+        <GridColumn md={10} lg={8}>
+          <IconAwesome className="text-warning" name="star" type="regular" size="2x" />
 
-        <h1 className="h3 mt-4 mb-4">Trusted by 1.000+ People</h1>
+          <h1 className="h3 mt-4 mb-4">Trusted by 1.000+ People</h1>
 
-      	<p>This UI Kit, has been used and tested by 1,000+ web developers and web designers in over 10.000 Web Projects. This is what some of them say:</p>
-      </div>
+          <p>This UI Kit, has been used and tested by 1,000+ web developers and web designers in over 10.000 Web Projects. This is what some of them say:</p>
+        </GridColumn>
+      </GridRow>
 
       <GridRow>
         <GridColumn md={4}>
@@ -519,7 +527,7 @@ const IndexPage = () => (
       </GridRow>
     </Section>
 
-    <Section className="cta pb-8" container="default">
+    <Section className="cta pb-4" container="default">
       <div className="text-center">
         <IconAwesome className="text-warning" name="crown" type="solid" size="2x" />
 
@@ -580,7 +588,11 @@ const IndexPage = () => (
         </GridColumn>
       </GridRow>
 
-      <p>You have Free Unlimited Updates and limited premium support on each package. You also have 30 days to request a refund if you're not happy with your purchase.</p>
+      <GridRow className="justify-content-center mt-5 text-center">
+        <GridColumn md={10} lg={8}>
+          <p className="mb-0">You have Free Unlimited Updates and limited premium support on each package. You also have 30 days to request a refund if you're not happy with your purchase.</p>
+        </GridColumn>
+      </GridRow>
     </Section>
 
     <div className="share">
