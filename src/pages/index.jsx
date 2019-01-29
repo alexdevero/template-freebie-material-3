@@ -34,7 +34,7 @@ const IndexPage = () => (
           <p className="features__slug">Every element you need in a product comes built in as a component. All components fit perfectly with each other and can take variations in color.</p>
         </GridColumn>
 
-        <GridColumn md={4}>
+        <GridColumn md={4} className="mt-4 mt-md-0 mb-4 mb-md-0">
           <IconAwesome className="text-cyan" name="object-group" type="regular" size="2x" />
 
           <h2 className="features__heading h5 mt-3 mb-3">Multi-Purpose Sections</h2>
@@ -343,55 +343,55 @@ const IndexPage = () => (
           <img src="" alt="" />
         </GridColumn>
 
-        <GridColumn md={6} lg={4} xl={3}>
+        <GridColumn md={6} lg={4} xl={3} className="mt-4 mt-md-0">
           <h2 className="h5">Landing Page</h2>
 
           <img src="" alt="" />
         </GridColumn>
 
-        <GridColumn md={6} lg={4} xl={3}>
+        <GridColumn md={6} lg={4} xl={3} className="mt-4 mt-lg-0">
           <h2 className="h5">Contact Us</h2>
 
           <img src="" alt="" />
         </GridColumn>
 
-        <GridColumn md={6} lg={4} xl={3}>
+        <GridColumn md={6} lg={4} xl={3} className="mt-4 mt-xl-0">
           <h2 className="h5">Blog Post</h2>
 
           <img src="" alt="" />
         </GridColumn>
 
-        <GridColumn md={6} lg={4} xl={3}>
+        <GridColumn md={6} lg={4} xl={3} className="mt-4">
           <h2 className="h5">Product Page</h2>
 
           <img src="" alt="" />
         </GridColumn>
 
-        <GridColumn md={6} lg={4} xl={3}>
+        <GridColumn md={6} lg={4} xl={3} className="mt-4">
           <h2 className="h5">Login Page</h2>
 
           <img src="" alt="" />
         </GridColumn>
 
-        <GridColumn md={6} lg={4} xl={3}>
+        <GridColumn md={6} lg={4} xl={3} className="mt-4">
           <h2 className="h5">Pricing Page</h2>
 
           <img src="" alt="" />
         </GridColumn>
 
-        <GridColumn md={6} lg={4} xl={3}>
+        <GridColumn md={6} lg={4} xl={3} className="mt-4">
           <h2 className="h5">Signup Page</h2>
 
           <img src="" alt="" />
         </GridColumn>
 
-        <GridColumn md={6} lg={4} xl={3}>
+        <GridColumn md={6} lg={4} xl={3} className="mt-4">
           <h2 className="h5">Profile Page</h2>
 
           <img src="" alt="" />
         </GridColumn>
 
-        <GridColumn md={6} lg={4} xl={3}>
+        <GridColumn md={6} lg={4} xl={3} className="mt-4">
           <h2 className="h5">Blog Posts</h2>
 
           <img src="" alt="" />
@@ -411,7 +411,7 @@ const IndexPage = () => (
           </a>
         </GridColumn>
 
-        <GridColumn md={6}>
+        <GridColumn md={6} className="mt-5 mt-md-0">
           <GridRow>
             <GridColumn md={6}>
               <h2 className="h5">Free Demo</h2>
@@ -431,7 +431,7 @@ const IndexPage = () => (
               </List>
             </GridColumn>
 
-            <GridColumn md={6}>
+            <GridColumn md={6} className="mt-4 mt-md-0">
               <h2 className="h5">PRO Version</h2>
 
               <List type="unstyled">
@@ -465,7 +465,7 @@ const IndexPage = () => (
           <p className="benefits__slug">Enjoy the perfection of fluid grid system based on 12 columns. Material Kit PRO is built on top of Bootstrap and has all the benefits the framework has to offer.</p>
         </GridColumn>
 
-        <GridColumn md={6} lg={3}>
+        <GridColumn md={6} lg={3} className="mt-4 mt-md-0 mb-4 mb-md-0">
           <IconAwesome className="text-secondary" name="desktop" type="solid" size="2x" />
 
           <h2 className="benefits__heading h5 mt-3 mb-3">Fully Responsive</h2>
@@ -473,7 +473,7 @@ const IndexPage = () => (
           <p className="benefits__slug">This Bootstrap kit is built mobile-first and looks amazing on any device. Regardless of the screen size, the website content will naturally fit any resolution.</p>
         </GridColumn>
 
-        <GridColumn md={6} lg={3}>
+        <GridColumn md={6} lg={3} className="mt-md-4 mt-lg-0">
           <IconAwesome className="text-primary" name="clock" type="regular" size="2x" />
 
           <h2 className="benefits__heading h5 mt-3 mb-3">Save Time</h2>
@@ -481,7 +481,7 @@ const IndexPage = () => (
           <p className="benefits__slug">Using the Material Kit PRO will save you large amount of time. You don't have to worry about customising the basic Bootstrap design or generating new components.</p>
         </GridColumn>
 
-        <GridColumn md={6} lg={3}>
+        <GridColumn md={6} lg={3} className="mt-4 mt-lg-0">
           <IconAwesome className="text-teal" name="money-bill-alt" type="regular" size="2x" />
 
           <h2 className="benefits__heading h5 mt-3 mb-3">Save Money</h2>
@@ -513,7 +513,7 @@ const IndexPage = () => (
           </blockquote>
         </GridColumn>
 
-        <GridColumn md={4}>
+        <GridColumn md={4} className="mt-4 mt-md-0 mb-4 mb-md-0">
           <blockquote className="blockquote">
             {/* <img src="" alt="" className="testimonials__avatar" /> */}
 
@@ -578,7 +578,7 @@ const IndexPage = () => (
           </div>
         </GridColumn>
 
-        <GridColumn md={6}>
+        <GridColumn md={6} className="mt-4 mt-md-0">
           <div className="plan plan--full">
             <h2 className="h4">HTML + React Package</h2>
 
@@ -596,14 +596,14 @@ const IndexPage = () => (
         </GridColumn>
       </GridRow>
 
-      <GridRow className="justify-content-center mt-5 text-center">
+      <GridRow className="justify-content-center mt-4 text-center">
         <GridColumn md={10} lg={8}>
           <p className="mb-0">You have Free Unlimited Updates and limited premium support on each package. You also have 30 days to request a refund if you're not happy with your purchase.</p>
         </GridColumn>
       </GridRow>
     </Section>
 
-    <div className="share">
+    <div className="share pt-2">
       <div className="container">
         <List type="inline" className="text-center">
           <li className="list-inline-item">
