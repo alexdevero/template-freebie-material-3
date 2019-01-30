@@ -552,36 +552,38 @@ class IndexPage extends React.Component {
         </Section>
 
         <Section className="cta pb-4" container="default">
-          <div className="text-center">
-            <IconAwesome className="text-warning" name="crown" type="solid" size="2x" />
+          <GridRow className="justify-content-center mb-4 text-center">
+            <GridColumn md={10} lg={8}>
+              <IconAwesome className="text-warning" name="crown" type="solid" size="2x" />
 
-            <h1 className="h3 mt-4 mb-4">Ready to get your Material UI Kit Pro?</h1>
-          </div>
+              <h1 className="h3 mt-4 mb-4">Ready to get your Material UI Kit Pro?</h1>
 
-          <div className="text-center mb-4">
-            <div className="custom-control custom-switch">
-              <label className="d-flex justify-content-center align-items-center" htmlFor="customSwitch1" onClick={this.handlePlanSwitch}>
-                <span className="mr-5">Personal license</span>
+              <div className="mb-4">
+                <div className="custom-control custom-switch">
+                  <label className="d-flex justify-content-center align-items-center" htmlFor="customSwitch1" onClick={this.handlePlanSwitch}>
+                    <span className="mr-5">Personal license</span>
 
-                <input type="checkbox" className="custom-control-input" id="customSwitch1" ref={element => this.switchCheckbox = element} />
+                    <input type="checkbox" className="custom-control-input" id="customSwitch1" ref={element => this.switchCheckbox = element} />
 
-                <span className="custom-control-label">Developer license</span>
-              </label>
-            </div>
-          </div>
+                    <span className="custom-control-label">Developer license</span>
+                  </label>
+                </div>
+              </div>
 
-          {/*this.state.isPersonal ? (
-            <p>Good for business projects, multiple websites for clients or for creating themes where your users will be charged for using it. Create multiple websites/apps for multiple clients.</p>
-          ) : (
-            <p>Good for personal websites, school projects, startups or any other project where your users will not be charged for using it. Create one single website/app for one client.</p>
-          )*/}
+              {this.state.isPersonal ? (
+                <p>Best fit for business projects, multiple websites for clients or for creating themes where your users will be charged for using it. Create multiple websites/apps for multiple clients.</p>
+              ) : (
+                <p>Best fit for personal websites and projects, school projects, startups or any other project where your users will not be charged for using it. Create one single website/app for one client.</p>
+              )}
+            </GridColumn>
+          </GridRow>
 
           <GridRow>
             <GridColumn md={6}>
               <div className="plan plan--lite">
                 <h2 className="h4">HTML Package</h2>
 
-                <h3 className="h5">{/*this.state.isPersonal ? '$79' : '$229'*/}</h3>
+                <h3 className="h5">{this.state.isPersonal ? '\u002479' : '\u0024229'}</h3>
 
                 <List type="unstyled">
                   <li>HTML/CSS/JS Files</li>
@@ -596,7 +598,7 @@ class IndexPage extends React.Component {
               <div className="plan plan--full">
                 <h2 className="h4">HTML + React Package</h2>
 
-                <h3 className="h5">{/*this.state.isPersonal ? '$139' : '¨$599'*/}</h3>
+                <h3 className="h5">{this.state.isPersonal ? '\u0024139' : '\u0024599'}</h3>
 
                 <List type="unstyled">
                   <li>HTML/CSS/JS/React Files</li>
