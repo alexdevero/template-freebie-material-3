@@ -173,6 +173,7 @@ html[class*=color-] {
     }
   }
 
+  /* Sliding nav menu */
   /* Styles for screens smaller than 1199px (xl) */
   @media (max-width: 1199.98px) {
     & .navbar-expand-xl .offcanvas-collapse {
@@ -193,13 +194,15 @@ html[class*=color-] {
     }
 
     & .navbar-expand-xl .offcanvas-collapse-left {
-      transition-property: left, visibility;
       left: -100%;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, .35);
+      transition-property: left, visibility;
     }
 
     & .navbar-expand-xl .offcanvas-collapse-right {
-      transition-property: right, visibility;
       right: -100%;
+      box-shadow: -5px 5px 10px rgba(0, 0, 0, .35);
+      transition-property: right, visibility;
     }
 
     & .navbar-expand-xl .offcanvas-collapse-left.show,
@@ -236,13 +239,15 @@ html[class*=color-] {
     }
 
     & .navbar-expand-lg .offcanvas-collapse-left {
-      transition-property: left, visibility;
       left: -100%;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, .35);
+      transition-property: left, visibility;
     }
 
     & .navbar-expand-lg .offcanvas-collapse-right {
-      transition-property: right, visibility;
       right: -100%;
+      box-shadow: -5px 5px 10px rgba(0, 0, 0, .35);
+      transition-property: right, visibility;
     }
 
     & .navbar-expand-lg .offcanvas-collapse-left.show,
@@ -279,13 +284,15 @@ html[class*=color-] {
     }
 
     & .navbar-expand-md .offcanvas-collapse-left {
-      transition-property: left, visibility;
       left: -100%;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, .35);
+      transition-property: left, visibility;
     }
 
     & .navbar-expand-md .offcanvas-collapse-right {
-      transition-property: right, visibility;
       right: -100%;
+      box-shadow: -5px 5px 10px rgba(0, 0, 0, .35);
+      transition-property: right, visibility;
     }
 
     & .navbar-expand-md .offcanvas-collapse-left.show,
@@ -322,13 +329,15 @@ html[class*=color-] {
     }
 
     & .navbar-expand-sm .offcanvas-collapse-left {
-      transition-property: left, visibility;
       left: -100%;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, .35);
+      transition-property: left, visibility;
     }
 
     & .navbar-expand-sm .offcanvas-collapse-right {
-      transition-property: right, visibility;
       right: -100%;
+      box-shadow: -5px 5px 10px rgba(0, 0, 0, .35);
+      transition-property: right, visibility;
     }
 
     & .navbar-expand-sm .offcanvas-collapse-left.show,
@@ -364,13 +373,15 @@ html[class*=color-] {
   }
 
   & .navbar:not([class*=navbar-expand]) .offcanvas-collapse-left {
-    transition-property: left, visibility;
     left: -100%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .35);
+    transition-property: left, visibility;
   }
 
   & .navbar:not([class*=navbar-expand]) .offcanvas-collapse-right {
-    transition-property: right, visibility;
     right: -100%;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, .35);
+    transition-property: right, visibility;
   }
 
   & .navbar:not([class*=navbar-expand]) .offcanvas-collapse-left.show,
