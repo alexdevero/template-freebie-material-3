@@ -121,7 +121,7 @@ html[class*=color-] {
     }
   }
 
-  /* Styles for screens smaller than 575px (sm) */
+  /* Styles for smallest screens (xs) */
   & .navbar-expand-sm .dropdown-menu {
     @media (max-width: 575px) {
       border: 0;
@@ -146,5 +146,243 @@ html[class*=color-] {
         opacity: .25;
       }
     }
+  }
+
+  /* Styles for screens smaller than 1199px (xl) */
+  & .navbar .dropdown-menu {
+    border: 0;
+
+    &,
+    & .dropdown-item:focus,
+    & .dropdown-item:hover {
+      background-color: transparent;
+    }
+
+    & .dropdown-item {
+      color: rgba(255, 255, 255, 1);
+      transition: color var(--tran-part);
+    }
+
+    & .dropdown-item:focus,
+    & .dropdown-item:hover {
+      color: rgba(255, 255, 255, .5);
+    }
+
+    & .dropdown-divider {
+      opacity: .25;
+    }
+  }
+
+  /* Styles for screens smaller than 1199px (xl) */
+  @media (max-width: 1199.98px) {
+    & .navbar-expand-xl .offcanvas-collapse {
+      position: fixed;
+      top: 56px; /* Height of navbar */
+      bottom: 0;
+      z-index: 99;
+      min-width: 220px;
+      width: 30%;
+      height: calc(100vh - 56px); /* Height of navbar */
+      padding-right: 1rem;
+      padding-left: 1rem;
+      overflow-y: auto;
+      visibility: hidden;
+      background-color: #343a40;
+      transition-timing-function: ease-in-out;
+      transition-duration: .3s;
+    }
+
+    & .navbar-expand-xl .offcanvas-collapse-left {
+      transition-property: left, visibility;
+      left: -100%;
+    }
+
+    & .navbar-expand-xl .offcanvas-collapse-right {
+      transition-property: right, visibility;
+      right: -100%;
+    }
+
+    & .navbar-expand-xl .offcanvas-collapse-left.show,
+    & .navbar-expand-xl .offcanvas-collapse-right.show {
+      visibility: visible;
+    }
+
+    & .navbar-expand-xl .offcanvas-collapse-left.show {
+      left: 0;
+    }
+
+    & .navbar-expand-xl .offcanvas-collapse-right.show {
+      right: 0;
+    }
+  }
+
+  /* Styles for screens smaller than 991px (lg) */
+  @media (max-width: 991.98px) {
+    & .navbar-expand-lg .offcanvas-collapse {
+      position: fixed;
+      top: 56px; /* Height of navbar */
+      bottom: 0;
+      z-index: 99;
+      min-width: 220px;
+      width: 30%;
+      height: calc(100vh - 56px); /* Height of navbar */
+      padding-right: 1rem;
+      padding-left: 1rem;
+      overflow-y: auto;
+      visibility: hidden;
+      background-color: #343a40;
+      transition-timing-function: ease-in-out;
+      transition-duration: .3s;
+    }
+
+    & .navbar-expand-lg .offcanvas-collapse-left {
+      transition-property: left, visibility;
+      left: -100%;
+    }
+
+    & .navbar-expand-lg .offcanvas-collapse-right {
+      transition-property: right, visibility;
+      right: -100%;
+    }
+
+    & .navbar-expand-lg .offcanvas-collapse-left.show,
+    & .navbar-expand-lg .offcanvas-collapse-right.show {
+      visibility: visible;
+    }
+
+    & .navbar-expand-lg .offcanvas-collapse-left.show {
+      left: 0;
+    }
+
+    & .navbar-expand-lg .offcanvas-collapse-right.show {
+      right: 0;
+    }
+  }
+
+  /* Styles for screens smaller than 767px (md) */
+  @media (max-width: 767.98px) {
+    & .navbar-expand-md .offcanvas-collapse {
+      position: fixed;
+      top: 56px; /* Height of navbar */
+      bottom: 0;
+      z-index: 99;
+      min-width: 220px;
+      width: 30%;
+      height: calc(100vh - 56px); /* Height of navbar */
+      padding-right: 1rem;
+      padding-left: 1rem;
+      overflow-y: auto;
+      visibility: hidden;
+      background-color: #343a40;
+      transition-timing-function: ease-in-out;
+      transition-duration: .3s;
+    }
+
+    & .navbar-expand-md .offcanvas-collapse-left {
+      transition-property: left, visibility;
+      left: -100%;
+    }
+
+    & .navbar-expand-md .offcanvas-collapse-right {
+      transition-property: right, visibility;
+      right: -100%;
+    }
+
+    & .navbar-expand-md .offcanvas-collapse-left.show,
+    & .navbar-expand-md .offcanvas-collapse-right.show {
+      visibility: visible;
+    }
+
+    & .navbar-expand-md .offcanvas-collapse-left.show {
+      left: 0;
+    }
+
+    & .navbar-expand-md .offcanvas-collapse-right.show {
+      right: 0;
+    }
+  }
+
+  /* Styles for screens smaller than 575px (sm) */
+  @media (max-width: 575.98px) {
+    & .navbar-expand-sm .offcanvas-collapse {
+      position: fixed;
+      top: 56px; /* Height of navbar */
+      bottom: 0;
+      z-index: 99;
+      min-width: 220px;
+      width: 30%;
+      height: calc(100vh - 56px); /* Height of navbar */
+      padding-right: 1rem;
+      padding-left: 1rem;
+      overflow-y: auto;
+      visibility: hidden;
+      background-color: #343a40;
+      transition-timing-function: ease-in-out;
+      transition-duration: .3s;
+    }
+
+    & .navbar-expand-sm .offcanvas-collapse-left {
+      transition-property: left, visibility;
+      left: -100%;
+    }
+
+    & .navbar-expand-sm .offcanvas-collapse-right {
+      transition-property: right, visibility;
+      right: -100%;
+    }
+
+    & .navbar-expand-sm .offcanvas-collapse-left.show,
+    & .navbar-expand-sm .offcanvas-collapse-right.show {
+      visibility: visible;
+    }
+
+    & .navbar-expand-sm .offcanvas-collapse-left.show {
+      left: 0;
+    }
+
+    & .navbar-expand-sm .offcanvas-collapse-right.show {
+      right: 0;
+    }
+  }
+
+  /* Styles for smallest screens (xs) */
+  & .navbar:not([class*=navbar-expand]) .offcanvas-collapse {
+    position: fixed;
+    top: 56px; /* Height of navbar */
+    bottom: 0;
+    z-index: 99;
+    min-width: 220px;
+    width: 30%;
+    height: calc(100vh - 56px); /* Height of navbar */
+    padding-right: 1rem;
+    padding-left: 1rem;
+    overflow-y: auto;
+    visibility: hidden;
+    background-color: #343a40;
+    transition-timing-function: ease-in-out;
+    transition-duration: .3s;
+  }
+
+  & .navbar:not([class*=navbar-expand]) .offcanvas-collapse-left {
+    transition-property: left, visibility;
+    left: -100%;
+  }
+
+  & .navbar:not([class*=navbar-expand]) .offcanvas-collapse-right {
+    transition-property: right, visibility;
+    right: -100%;
+  }
+
+  & .navbar:not([class*=navbar-expand]) .offcanvas-collapse-left.show,
+  & .navbar:not([class*=navbar-expand]) .offcanvas-collapse-right.show {
+    visibility: visible;
+  }
+
+  & .navbar:not([class*=navbar-expand]) .offcanvas-collapse-left.show {
+    left: 0;
+  }
+
+  & .navbar:not([class*=navbar-expand]) .offcanvas-collapse-right.show {
+    right: 0;
   }
 }

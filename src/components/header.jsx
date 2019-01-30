@@ -15,7 +15,7 @@ export class Header extends React.PureComponent {
               <span className="navbar-toggler-icon" />
             </button>
 
-            <div className="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+            <div className="collapse navbar-collapse offcanvas-collapse offcanvas-collapse-right justify-content-end" id="navbarTogglerDemo02">
               <ul className="navbar-nav">
                 <li className="nav-item dropdown">
                   <button className="nav-link dropdown-toggle btn btn-link" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
