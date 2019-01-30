@@ -1,6 +1,7 @@
 /* Green theme */
 html.color-green {
-  & .navbar {
+  & .navbar,
+  & .navbar .offcanvas-collapse {
     background-color: var(--mat-col-green) !important;
   }
 }

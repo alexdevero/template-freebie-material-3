@@ -1,6 +1,7 @@
 /* Red theme */
 html.color-red {
-  & .navbar {
+  & .navbar,
+  & .navbar .offcanvas-collapse {
     background-color: var(--mat-col-red) !important;
   }
 }

@@ -1,6 +1,7 @@
 /* Amber theme */
 html.color-amber {
-  & .navbar {
+  & .navbar,
+  & .navbar .offcanvas-collapse {
     background-color: var(--mat-col-amber) !important;
   }
 }

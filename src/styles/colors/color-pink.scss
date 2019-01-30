@@ -1,6 +1,7 @@
 /* Pink theme */
 html.color-pink {
-  & .navbar {
+  & .navbar,
+  & .navbar .offcanvas-collapse {
     background-color: var(--mat-col-pink) !important;
   }
 }

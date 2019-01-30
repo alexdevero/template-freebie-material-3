@@ -1,6 +1,7 @@
 /* Green light theme */
 html.color-green-light {
-  & .navbar {
+  & .navbar,
+  & .navbar .offcanvas-collapse {
     background-color: var(--mat-col-green-light) !important;
   }
 }

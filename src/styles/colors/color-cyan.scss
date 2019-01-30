@@ -1,6 +1,7 @@
 /* Cyan theme */
 html.color-cyan {
-  & .navbar {
+  & .navbar,
+  & .navbar .offcanvas-collapse {
     background-color: var(--mat-col-cyan) !important;
   }
 }

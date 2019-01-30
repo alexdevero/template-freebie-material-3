@@ -1,6 +1,7 @@
 /* Gray theme */
 html.color-gray {
-  & .navbar {
+  & .navbar,
+  & .navbar .offcanvas-collapse {
     background-color: var(--mat-col-gray) !important;
   }
 }

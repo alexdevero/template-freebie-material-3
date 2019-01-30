@@ -1,6 +1,7 @@
 /* Yellow theme */
 html.color-yellow {
-  & .navbar {
+  & .navbar,
+  & .navbar .offcanvas-collapse {
     background-color: var(--mat-col-yellow) !important;
   }
 }

@@ -1,6 +1,7 @@
 /* Orange theme */
 html.color-orange {
-  & .navbar {
+  & .navbar,
+  & .navbar .offcanvas-collapse {
     background-color: var(--mat-col-orange) !important;
   }
 }

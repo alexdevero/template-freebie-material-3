@@ -1,6 +1,7 @@
 /* Purple theme */
 html.color-purple {
-  & .navbar {
+  & .navbar,
+  & .navbar .offcanvas-collapse {
     background-color: var(--mat-col-purple) !important;
   }
 }

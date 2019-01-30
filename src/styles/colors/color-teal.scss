@@ -1,6 +1,7 @@
 /* Teal theme */
 html.color-teal {
-  & .navbar {
+  & .navbar,
+  & .navbar .offcanvas-collapse {
     background-color: var(--mat-col-teal) !important;
   }
 }

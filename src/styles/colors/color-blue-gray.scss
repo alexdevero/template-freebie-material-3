@@ -1,6 +1,7 @@
 /* Blue gray theme */
 html.color-blue-gray {
-  & .navbar {
+  & .navbar,
+  & .navbar .offcanvas-collapse {
     background-color: var(--mat-col-blue-gray) !important;
   }
 }
