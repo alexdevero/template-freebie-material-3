@@ -1,7 +1,9 @@
 /* Blue light theme */
 html.color-blue-light {
   & .navbar,
-  & .navbar .offcanvas-collapse {
+  & .navbar .offcanvas-collapse,
+  & .bg-primary,
+  & .btn-primary {
     background-color: var(--mat-col-blue-light) !important;
   }
 }

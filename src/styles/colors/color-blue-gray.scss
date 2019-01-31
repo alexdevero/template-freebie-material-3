@@ -1,7 +1,9 @@
 /* Blue gray theme */
 html.color-blue-gray {
   & .navbar,
-  & .navbar .offcanvas-collapse {
+  & .navbar .offcanvas-collapse,
+  & .bg-primary,
+  & .btn-primary {
     background-color: var(--mat-col-blue-gray) !important;
   }
 }

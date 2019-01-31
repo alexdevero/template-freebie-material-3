@@ -1,7 +1,9 @@
 /* Orange deep theme */
 html.color-orange-deep {
   & .navbar,
-  & .navbar .offcanvas-collapse {
+  & .navbar .offcanvas-collapse,
+  & .bg-primary,
+  & .btn-primary {
     background-color: var(--mat-col-orange-deep) !important;
   }
 }

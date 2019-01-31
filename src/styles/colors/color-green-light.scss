@@ -1,7 +1,9 @@
 /* Green light theme */
 html.color-green-light {
   & .navbar,
-  & .navbar .offcanvas-collapse {
+  & .navbar .offcanvas-collapse,
+  & .bg-primary,
+  & .btn-primary {
     background-color: var(--mat-col-green-light) !important;
   }
 }

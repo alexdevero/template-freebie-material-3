@@ -1,7 +1,9 @@
 /* Gray theme */
 html.color-gray {
   & .navbar,
-  & .navbar .offcanvas-collapse {
+  & .navbar .offcanvas-collapse,
+  & .bg-primary,
+  & .btn-primary {
     background-color: var(--mat-col-gray) !important;
   }
 }

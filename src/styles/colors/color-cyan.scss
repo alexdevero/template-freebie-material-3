@@ -1,7 +1,9 @@
 /* Cyan theme */
 html.color-cyan {
   & .navbar,
-  & .navbar .offcanvas-collapse {
+  & .navbar .offcanvas-collapse,
+  & .bg-primary,
+  & .btn-primary {
     background-color: var(--mat-col-cyan) !important;
   }
 }

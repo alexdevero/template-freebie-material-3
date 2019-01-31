@@ -1,7 +1,9 @@
 /* Indigo theme */
 html.color-indigo {
   & .navbar,
-  & .navbar .offcanvas-collapse {
+  & .navbar .offcanvas-collaps,
+  & .bg-primary,
+  & .btn-primary {
     background-color: var(--mat-col-indigo) !important;
   }
 }
