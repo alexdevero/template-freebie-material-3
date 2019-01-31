@@ -578,36 +578,44 @@ class IndexPage extends React.Component {
             </GridColumn>
           </GridRow>
 
-          <GridRow>
-            <GridColumn md={6}>
-              <div className="plan plan--lite">
-                <h2 className="h4">HTML Package</h2>
+          <GridRow className="justify-content-center">
+            <GridColumn sm={6} md={5} lg={4} xl={3}>
+              <div className="card plan plan--lite">
+                <div className="card-header bg-primary p-3">
+                  <h2 className="h5 card-title font-weight-normal mb-0 text-center text-white">HTML Package</h2>
+                </div>
 
-                <h3 className="h5">{this.state.isPersonal ? '\u002479' : '\u0024229'}</h3>
+                <div className="card-body p-4">
+                  <h3 className="h3 mb-4 mt-2 text-center">{this.state.isPersonal ? '\u002479' : '\u0024229'}</h3>
 
-                <List type="unstyled">
-                  <li>HTML/CSS/JS Files</li>
-                  <li>Fully Coded Components</li>
-                  <li>Responsive Design</li>
-                  <li>Product Documentation</li>
-                </List>
+                  <List type="unstyled" className="card-text text-14">
+                    <li className="mb-3"><IconAwesome name="check" type="solid" />&nbsp;&nbsp;&nbsp;HTML/CSS/JS Files</li>
+                    <li className="mb-3"><IconAwesome name="check" type="solid" />&nbsp;&nbsp;&nbsp;Fully Coded Components</li>
+                    <li className="mb-3"><IconAwesome name="check" type="solid" />&nbsp;&nbsp;&nbsp;Responsive Design</li>
+                    <li><IconAwesome name="check" type="solid" />&nbsp;&nbsp;&nbsp;Product Documentation</li>
+                  </List>
+                </div>
               </div>
             </GridColumn>
 
-            <GridColumn md={6} className="mt-4 mt-md-0">
-              <div className="plan plan--full">
-                <h2 className="h4">HTML + React Package</h2>
+            <GridColumn sm={6} md={5} lg={4} xl={3} className="mt-4 mt-sm-0">
+              <div className="card plan plan--full">
+                <div className="card-header bg-primary p-3">
+                  <h2 className="h5 card-title font-weight-normal mb-0 text-center text-white">HTML + React Package</h2>
+                </div>
 
-                <h3 className="h5">{this.state.isPersonal ? '\u0024139' : '\u0024599'}</h3>
+                <div className="card-body p-4">
+                  <h3 className="h3 mb-4 mt-2 text-center">{this.state.isPersonal ? '\u0024139' : '\u0024599'}</h3>
 
-                <List type="unstyled">
-                  <li>HTML/CSS/JS/React Files</li>
-                  <li>Fully Coded Components</li>
-                  <li>Responsive Design</li>
-                  <li>Product Documentation</li>
-                  <li><IconAwesome name="plus" type="solid" /> React version</li>
-                  <li><IconAwesome name="plus" type="solid" /> Gatsbyjs version</li>
-                </List>
+                  <List type="unstyled" className="card-text text-14">
+                    <li className="mb-3"><IconAwesome name="check" type="solid" />&nbsp;&nbsp;&nbsp;HTML/CSS/JS/React Files</li>
+                    <li className="mb-3"><IconAwesome name="check" type="solid" />&nbsp;&nbsp;&nbsp;Fully Coded Components</li>
+                    <li className="mb-3"><IconAwesome name="check" type="solid" />&nbsp;&nbsp;&nbsp;Responsive Design</li>
+                    <li className="mb-3"><IconAwesome name="check" type="solid" />&nbsp;&nbsp;&nbsp;Product Documentation</li>
+                    <li className="mb-3"><IconAwesome name="plus" type="solid" />&nbsp;&nbsp;&nbsp;React version</li>
+                    <li><IconAwesome name="plus" type="solid" />&nbsp;&nbsp;&nbsp;Gatsbyjs version</li>
+                  </List>
+                </div>
               </div>
             </GridColumn>
           </GridRow>
