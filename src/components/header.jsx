@@ -79,6 +79,8 @@ export class Header extends React.PureComponent {
 
                     <Link to="/contact" className="dropdown-item">Contact</Link>
 
+                    <Link to="/login" className="dropdown-item">Login</Link>
+
                     <Link to="/portfolio" className="dropdown-item">Portfolio</Link>
 
                     <Link to="/services" className="dropdown-item">Services</Link>

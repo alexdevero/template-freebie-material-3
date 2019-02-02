@@ -13,6 +13,7 @@ import About from './pages/about'
 import BlogPost from './pages/blog-post'
 import Blog from './pages/blog'
 import Contact from './pages/contact'
+import Login from './pages/login'
 import IndexPage from './pages/index'
 import Portfolio from './pages/portfolio'
 import Services from './pages/services'
@@ -65,6 +66,7 @@ class App extends React.Component {
           <Route path="/blog-post" component={BlogPost} />
           <Route path="/blog" component={Blog} />
           <Route path="/contact" component={Contact} />
+          <Route path="/login" component={Login} />
           <Route path="/portfolio" component={Portfolio} />
           <Route path="/services" component={Services} />
           <Route path="/styleguide" component={StyleguidePage} />
