@@ -148,8 +148,8 @@ html[class*=color-] {
     }
   }
 
-  /* Styles for screens smaller than 1199px (xl) */
-  & .navbar .dropdown-menu {
+  /* Styles for smallest screens (xs) */
+  & .navbar:not([class*=navbar-expand]) .dropdown-menu {
     border: 0;
 
     &,
