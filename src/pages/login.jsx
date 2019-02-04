@@ -4,7 +4,7 @@ import { GridRow } from '../components/grid-row'
 import { GridColumn } from '../components/grid-column'
 import { IconAwesome } from '../components/_free/icon-awesome'
 import { Jumbotron } from '../components/jumbotron'
-import Layout from '../components/layout'
+import { Layout } from '../components/layout'
 import { List } from '../components/list'
 
 class LoginPage extends React.Component {
