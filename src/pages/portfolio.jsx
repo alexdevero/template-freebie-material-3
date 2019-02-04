@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import Layout from '../components/layout'
 
-const Portfolio = () => (
+const PortfolioPage = () => (
   <Layout pageTitle="Portfolio">
     <h1>Hi from the Portfolio</h1>
 
@@ -13,4 +13,4 @@ const Portfolio = () => (
   </Layout>
 )
 
-export default Portfolio
+export default PortfolioPage

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import Layout from '../components/layout'
 
-const Services = () => (
+const ServicesPage = () => (
   <Layout pageTitle="Services">
     <h1>Hi from the Services</h1>
 
@@ -13,4 +13,4 @@ const Services = () => (
   </Layout>
 )
 
-export default Services
+export default ServicesPage

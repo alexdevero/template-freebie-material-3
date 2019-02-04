@@ -9,14 +9,14 @@ import * as serviceWorker from './serviceWorker'
 
 // Import pages
 import NotFoundPage from './pages/404'
-import About from './pages/about'
-import BlogPost from './pages/blog-post'
-import Blog from './pages/blog'
-import Contact from './pages/contact'
-import Login from './pages/login'
+import AboutPage from './pages/about'
+import BlogPostPage from './pages/blog-post'
+import BlogPage from './pages/blog'
+import ContactPage from './pages/contact'
+import LoginPage from './pages/login'
 import IndexPage from './pages/index'
-import Portfolio from './pages/portfolio'
-import Services from './pages/services'
+import PortfolioPage from './pages/portfolio'
+import ServicesPage from './pages/services'
 import StyleguidePage from './pages/styleguide'
 
 // Import Presentation Panel for
@@ -62,13 +62,13 @@ class App extends React.Component {
           <Route path="/" component={IndexPage} exact={true} />
 
           <Route path="/404" component={NotFoundPage} />
-          <Route path="/about" component={About} />
-          <Route path="/blog-post" component={BlogPost} />
-          <Route path="/blog" component={Blog} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/login" component={Login} />
-          <Route path="/portfolio" component={Portfolio} />
-          <Route path="/services" component={Services} />
+          <Route path="/about" component={AboutPage} />
+          <Route path="/blog-post" component={BlogPostPage} />
+          <Route path="/blog" component={BlogPage} />
+          <Route path="/contact" component={ContactPage} />
+          <Route path="/login" component={LoginPage} />
+          <Route path="/portfolio" component={PortfolioPage} />
+          <Route path="/services" component={ServicesPage} />
           <Route path="/styleguide" component={StyleguidePage} />
         </React.Fragment>
       </BrowserRouter>

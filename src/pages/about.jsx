@@ -8,7 +8,7 @@ import { Layout } from '../components/layout'
 import { List } from '../components/list'
 import { Section } from '../components/section'
 
-class About extends React.Component {
+class AboutPage extends React.Component {
   render () {
     return (
       <Layout pageTitle="About">
@@ -122,4 +122,4 @@ class About extends React.Component {
   }
 }
 
-export default About
+export default AboutPage

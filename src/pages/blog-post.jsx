@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import Layout from '../components/layout'
 
-const BlogPost = () => (
+const BlogPostPage = () => (
   <Layout pageTitle="Blog post">
     <h1>Hi from the blog post</h1>
 
@@ -13,4 +13,4 @@ const BlogPost = () => (
   </Layout>
 )
 
-export default BlogPost
+export default BlogPostPage

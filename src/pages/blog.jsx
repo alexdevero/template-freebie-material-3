@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import Layout from '../components/layout'
 
-const Blog = () => (
+const BlogPage = () => (
   <Layout pageTitle="Blog">
     <h1>Hi from the blog</h1>
 
@@ -13,4 +13,4 @@ const Blog = () => (
   </Layout>
 )
 
-export default Blog
+export default BlogPage

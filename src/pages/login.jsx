@@ -7,7 +7,7 @@ import { Jumbotron } from '../components/jumbotron'
 import Layout from '../components/layout'
 import { List } from '../components/list'
 
-class Login extends React.Component {
+class LoginPage extends React.Component {
   state = {
     isFormMessageVisible: false,
     isLoginMode: true
@@ -155,4 +155,4 @@ class Login extends React.Component {
   }
 }
 
-export default Login
+export default LoginPage

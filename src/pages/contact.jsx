@@ -6,7 +6,7 @@ import { Jumbotron } from '../components/jumbotron'
 import { Layout } from '../components/layout'
 import { Section } from '../components/section'
 
-class Contact extends React.Component {
+class ContactPage extends React.Component {
   state = {
     isFormMessageVisible: false
   }
@@ -68,4 +68,4 @@ class Contact extends React.Component {
   }
 }
 
-export default Contact
+export default ContactPage
