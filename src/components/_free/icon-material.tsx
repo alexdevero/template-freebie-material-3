@@ -1,9 +1,17 @@
 // Icons: https://material.io/tools/icons/?style=baseline
 
 import React from 'react'
-import PropTypes from 'prop-types'
 
-export class IconMaterial extends React.PureComponent {
+type IconMaterialProps = {
+  active?: boolean;
+  className?: string;
+  name: string;
+  // size: '18' | '24' | '36' | '48';
+  size?: 'xs' | 'sm' | 'lg' | '2x' | '3x' | '4x' | '5x' | '6x' | '7x' | '8x' | '9x' | '10x';
+  style?: 'dark' | 'light';
+}
+
+export class IconMaterial extends React.PureComponent<IconMaterialProps, {}> {
   generateSize = () => {
     let iconSize = ''
 
@@ -107,13 +115,4 @@ export class IconMaterial extends React.PureComponent {
       {this.props.name}
     </span>
   }
-}
-
-IconMaterial.propTypes = {
-  active: PropTypes.bool,
-  className: PropTypes.string,
-  name: PropTypes.string.isRequired,
-  // size: PropTypes.oneOf(['18', '24', '36', '48']),
-  size: PropTypes.oneOf(['xs', 'sm', 'lg', '2x', '3x', '4x', '5x', '6x', '7x', '8x', '9x', '10x']),
-  style: PropTypes.oneOf(['dark', 'light'])
 }

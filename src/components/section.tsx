@@ -1,7 +1,11 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 
-export class Section extends React.PureComponent {
+type SectionProps = {
+  // children: React.ReactNode;
+  container: 'default' | 'fluid' | 'none';
+}
+
+export class Section extends React.PureComponent<SectionProps, {}> {
   generateClasses = () => {
     return this.props.className !== undefined ? this.props.className : null
   }
@@ -35,9 +39,4 @@ export class Section extends React.PureComponent {
       {this.renderContainer()}
     </section>
   }
-}
-
-Section.propTypes = {
-  children: PropTypes.node.isRequired,
-  container: PropTypes.oneOf(['default', 'fluid', 'none']).isRequired
 }

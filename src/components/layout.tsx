@@ -1,9 +1,13 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import PropTypes from 'prop-types'
 
 import { Footer } from './footer'
 import { Header } from './header'
+
+type LayoutProps = {
+  // children: React.ReactNode;
+  pageTitle: string;
+}
 
 export const Layout = ({ children, pageTitle }) => (
   <>
@@ -20,10 +24,4 @@ export const Layout = ({ children, pageTitle }) => (
     </div>
   </>
 )
-
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-  pageTitle: PropTypes.string.isRequired
-}
-
 export default Layout

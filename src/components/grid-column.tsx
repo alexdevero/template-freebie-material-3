@@ -1,7 +1,16 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 
-export class GridColumn extends React.PureComponent {
+type GridColumnProps = {
+  className?: string;
+  // children: React.ReactNode
+  lg: string | number;
+  md: string | number;
+  sm: string | number;
+  xl: string | number;
+  xs: string | number;
+}
+
+export class GridColumn extends React.PureComponent<GridColumnProps, {}> {
   generateClasses = () => {
     let classes = []
 
@@ -18,7 +27,7 @@ export class GridColumn extends React.PureComponent {
       (this.props.className !== undefined) && classes.push(this.props.className)
     }
 
-    return classes.length !== 0 ? classes : null
+    return classes.length !== 0 ? classes : ''
   }
 
   render() {
@@ -26,13 +35,4 @@ export class GridColumn extends React.PureComponent {
       {this.props.children}
     </div>
   }
-}
-
-GridColumn.propTypes = {
-  children: PropTypes.node,
-  lg: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-  md: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-  sm: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-  xl: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
-  xs: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
 }

@@ -1,7 +1,11 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 
-export class List extends React.PureComponent {
+type ListProps = {
+  // children: React.ReactNode;
+  type: 'inline' | 'unstyled';
+}
+
+export class List extends React.PureComponent<ListProps, {}> {
   generateClasses = () => {
     return this.props.className !== undefined ? this.props.className : null
   }
@@ -31,9 +35,4 @@ export class List extends React.PureComponent {
       {this.props.children}
     </ul>
   }
-}
-
-List.propTypes = {
-  children: PropTypes.node.isRequired,
-  type: PropTypes.oneOf(['inline', 'unstyled'])
 }

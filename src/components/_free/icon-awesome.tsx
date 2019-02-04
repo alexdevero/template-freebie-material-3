@@ -1,9 +1,15 @@
 // Icons: https://fontawesome.com/icons
 
 import React from 'react'
-import PropTypes from 'prop-types'
 
-export class IconAwesome extends React.PureComponent {
+type IconAwesomeProps = {
+  className?: string;
+  name: string;
+  size?: 'xs' | 'sm' | 'lg' | '2x' | '3x' | '4x' | '5x' | '6x' | '7x' | '8x' | '9x' | '10x';
+  type: 'brand' | 'light' | 'regular' | 'solid';
+}
+
+export class IconAwesome extends React.PureComponent<IconAwesomeProps, {}> {
   generateSize = () => {
     let iconSize = ''
 
@@ -54,11 +60,4 @@ export class IconAwesome extends React.PureComponent {
   render() {
     return <span className={`fa${this.props.type.substring(0, 1).toLowerCase()} fa-${this.props.name}` + this.generateSize() + (this.props.className !== undefined ? ' ' + this.props.className : '')} aria-hidden={true} />
   }
-}
-
-IconAwesome.propTypes = {
-  className: PropTypes.string,
-  name: PropTypes.string.isRequired,
-  size: PropTypes.oneOf(['xs', 'sm', 'lg', '2x', '3x', '4x', '5x', '6x', '7x', '8x', '9x', '10x']),
-  type: PropTypes.oneOf(['brand', 'light', 'regular', 'solid']).isRequired
 }
