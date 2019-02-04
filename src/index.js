@@ -14,7 +14,7 @@ import BlogPostPage from './pages/blog-post'
 import BlogPage from './pages/blog'
 import ContactPage from './pages/contact'
 import LoginPage from './pages/login'
-import IndexPage from './pages/index'
+import HomePage from './pages/home'
 import PortfolioPage from './pages/portfolio'
 import ServicesPage from './pages/services'
 import StyleguidePage from './pages/styleguide'
@@ -59,7 +59,7 @@ class App extends React.Component {
 
           <PresentationPanel state={this.state} colorClickHandler={this.handleThemeColorChange} panelToggleHandler={this.handlePresentationPanelToggle} />
 
-          <Route path="/" component={IndexPage} exact={true} />
+          <Route path="/" component={HomePage} exact={true} />
 
           <Route path="/404" component={NotFoundPage} />
           <Route path="/about" component={AboutPage} />

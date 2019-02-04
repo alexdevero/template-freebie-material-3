@@ -8,7 +8,7 @@ import { Layout } from '../components/layout'
 import { List } from '../components/list'
 import { Section } from '../components/section'
 
-class IndexPage extends React.Component {
+class HomePage extends React.Component {
   state = {
     isPersonal: true
   }
@@ -651,4 +651,4 @@ class IndexPage extends React.Component {
   }
 }
 
-export default IndexPage
+export default HomePage
