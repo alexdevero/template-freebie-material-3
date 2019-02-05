@@ -13,6 +13,19 @@ class LoginPage extends React.Component {
     isLoginMode: true
   }
 
+  handleFormSubmit = () => {
+    this.setState({
+      isFormMessageVisible: !this.state.isFormMessageVisible
+    })
+  }
+
+  handleModeChange = () => {
+    this.setState({
+      isFormMessageVisible: false,
+      isLoginMode: !this.state.isLoginMode
+    })
+  }
+
   generateFormContent = () => {
     if (this.state.isLoginMode) {
       return (
@@ -93,19 +106,6 @@ class LoginPage extends React.Component {
     } else {
       return <p className="mt-4 text-14"><em className="text-gray">Already have an account? <a href="#!" onClick={this.handleModeChange}>Log in</a>.</em></p>
     }
-  }
-
-  handleFormSubmit = () => {
-    this.setState({
-      isFormMessageVisible: !this.state.isFormMessageVisible
-    })
-  }
-
-  handleModeChange = () => {
-    this.setState({
-      isFormMessageVisible: false,
-      isLoginMode: !this.state.isLoginMode
-    })
   }
 
   render () {
