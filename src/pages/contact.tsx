@@ -6,9 +6,19 @@ import { Jumbotron } from '../components/jumbotron'
 import { Layout } from '../components/layout'
 import { Section } from '../components/section'
 
-class ContactPage extends React.Component {
+type ContactPageProps = {
+  handleFormSubmit: Function;
+}
+
+class ContactPage extends React.Component<ContactPageProps, {}> {
   state = {
     isFormMessageVisible: false
+  }
+
+  handleFormSubmit = () => {
+    this.setState({
+      isFormMessageVisible: !this.state.isFormMessageVisible
+    })
   }
 
   render () {
@@ -51,10 +61,10 @@ class ContactPage extends React.Component {
                 <div className="form-group mt-4">
                   <label className="text-14" htmlFor="contactMessage">Your message</label>
 
-                  <textarea className="form-control border-top-0 border-left-0 border-right-0 rounded-0 text-14" id="contactMessage" rows="3"></textarea>
+                  <textarea className="form-control border-top-0 border-left-0 border-right-0 rounded-0 text-14" id="contactMessage" rows={3}></textarea>
                 </div>
 
-                {this.state.isFormMessageVisible && <p className="alert-info rounded mt-5 pt-3 pb-3" role="alert">You know this is not for real, right <span aria-label="Winking Face" role="img">😉</span>?</p>}
+                {this.state.isFormMessageVisible && <p className="alert-info rounded mt-5 pt-3 pb-3 text-center" role="alert">You know this is not for real, right <span aria-label="Winking Face" role="img">😉</span>?</p>}
 
                 <div className="mt-5 text-center">
                   <button type="button" className="btn btn-primary" onClick={this.handleFormSubmit}>Send message</button>
