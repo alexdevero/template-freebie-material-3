@@ -13,7 +13,10 @@ class HomePage extends React.Component {
     isPersonal: true
   }
 
-  handlePlanSwitch = (event) => {
+  // Ref for checkbox
+  switchCheckbox: any
+
+  handlePlanSwitch = (event: any) => {
     event.preventDefault()
 
     this.setState({
@@ -559,7 +562,7 @@ class HomePage extends React.Component {
                   <label className="d-flex justify-content-center align-items-center" htmlFor="customSwitch1" onClick={this.handlePlanSwitch}>
                     <span className="mr-5">Personal license</span>
 
-                    <input type="checkbox" className="custom-control-input" id="customSwitch1" ref={element => this.switchCheckbox = element} />
+                    <input type="checkbox" className="custom-control-input" id="customSwitch1" ref={element => this.switchCheckbox = element!} />
 
                     <span className="custom-control-label">Developer license</span>
                   </label>
