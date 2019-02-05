@@ -2,12 +2,13 @@ import React from 'react'
 
 type SectionProps = {
   // children: React.ReactNode;
+  className?: string;
   container: 'default' | 'fluid' | 'none';
 }
 
 export class Section extends React.PureComponent<SectionProps, {}> {
   generateClasses = () => {
-    return this.props.className !== undefined ? this.props.className : null
+    return this.props.className !== undefined ? this.props.className : undefined
   }
 
   renderContainer = () => {

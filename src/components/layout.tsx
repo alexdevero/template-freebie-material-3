@@ -5,11 +5,11 @@ import { Footer } from './footer'
 import { Header } from './header'
 
 type LayoutProps = {
-  // children: React.ReactNode;
+  children: React.ReactNode;
   pageTitle: string;
 }
 
-export const Layout = ({ children, pageTitle }) => (
+export const Layout = ({ children, pageTitle } : {[key:string]:any}) => (
   <>
     <Helmet>
       <title>{pageTitle} | Material Template 3.0</title>

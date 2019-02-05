@@ -2,12 +2,13 @@ import React from 'react'
 
 type ListProps = {
   // children: React.ReactNode;
+  className?: string;
   type: 'inline' | 'unstyled';
 }
 
 export class List extends React.PureComponent<ListProps, {}> {
   generateClasses = () => {
-    return this.props.className !== undefined ? this.props.className : null
+    return this.props.className !== undefined ? this.props.className : undefined
   }
 
   getType = () => {
@@ -23,7 +24,7 @@ export class List extends React.PureComponent<ListProps, {}> {
         break
 
       default:
-        type = null
+        type = undefined
         break
     }
 
@@ -31,7 +32,7 @@ export class List extends React.PureComponent<ListProps, {}> {
   }
 
   render() {
-    return <ul className={this.generateClasses() !== null || this.getType() !== null ? [this.generateClasses(), this.getType()].join('') : null}>
+    return <ul className={this.generateClasses() !== null || this.getType() !== null ? [this.generateClasses(), this.getType()].join('') : undefined}>
       {this.props.children}
     </ul>
   }

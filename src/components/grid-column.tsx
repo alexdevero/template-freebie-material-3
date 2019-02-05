@@ -1,13 +1,13 @@
 import React from 'react'
 
 type GridColumnProps = {
-  className?: string;
   // children: React.ReactNode
-  lg: string | number;
-  md: string | number;
-  sm: string | number;
-  xl: string | number;
-  xs: string | number;
+  className?: string;
+  lg?: string | number;
+  md?: string | number;
+  sm?: string | number;
+  xl?: string | number;
+  xs?: string | number;
 }
 
 export class GridColumn extends React.PureComponent<GridColumnProps, {}> {
@@ -27,7 +27,7 @@ export class GridColumn extends React.PureComponent<GridColumnProps, {}> {
       (this.props.className !== undefined) && classes.push(this.props.className)
     }
 
-    return classes.length !== 0 ? classes : ''
+    return classes.join('')
   }
 
   render() {

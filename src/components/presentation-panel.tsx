@@ -1,7 +1,7 @@
 import React from 'react'
 // import { Link } from 'react-router-dom'
 
-export const PresentationPanel = ({ colorClickHandler, panelToggleHandler, state}) => {
+export const PresentationPanel = ({ colorClickHandler, panelToggleHandler, state} : {[key:string]:any}) => {
   return(
     <section className={`options-panel ${state.isPresentationPanelVisible ? 'options-panel--opened' : 'options-panel--closed'}`}>
       {/* Panel Button */}

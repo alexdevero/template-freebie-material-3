@@ -2,6 +2,7 @@ import React from 'react'
 
 type GridRowProps = {
   // children: React.ReactNode
+  className?: string;
 }
 
 export class GridRow extends React.PureComponent<GridRowProps, {}> {
