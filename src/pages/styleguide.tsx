@@ -24,7 +24,7 @@ class StyleguidePage extends React.PureComponent {
           <div className="custom-control custom-switch" onClick={this.handleProSwitch}>
             <input type="checkbox" className="custom-control-input" id="customSwitch1" />
 
-            <label className="custom-control-label" for="customSwitch1">Show PRO version</label>
+            <label className="custom-control-label" htmlFor="customSwitch1">Show PRO version</label>
           </div>
         </section>
 
