@@ -9,7 +9,7 @@ type LayoutProps = {
   pageTitle: string;
 }
 
-export const Layout = ({ children, pageTitle } : {[key:string]:any}) => (
+export const Layout = ({ children, pageTitle, hasFooter } : {[key:string]:any}) => (
   <>
     <Helmet>
       <title>{pageTitle} | Material Template 3.0</title>
@@ -20,7 +20,7 @@ export const Layout = ({ children, pageTitle } : {[key:string]:any}) => (
 
       {children}
 
-      <Footer />
+      {hasFooter && <Footer />}
     </div>
   </>
 )
